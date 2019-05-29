@@ -1,0 +1,144 @@
+semester:Intersession 2018-2019
+officehours:8:00 am - 12:00 nn, 1:00 pm - 4:00 pm
+sathours:8:00 am - 12:00 nn
+
+// Online Enlistment (Undergrad)
+timebatchone:9:00 am - 12:00 nn
+timebatchtwo:1:00 pm - 4:00 pm
+timeintlonline:9:00 am - 12:00 nn; 1:00 pm - 4:00 pm
+timeffaonline:5:30 pm - 11:59 pm
+
+datefreshmenonline:January 11 (Thursday)
+datesophomoresonline:January 10 (Wednesday)
+datejuniorsonline:January 9 (Tuesday)
+dateseniorsonline:January 8 (Monday)
+dateintlonline:January 9 (Tuesday)
+dateffaonline: June 1 (Friday)
+
+onlinenotes:
+
+// Manual Registration
+datesophseniorsmanreg:January 12 (Friday)
+datejuniorsmanreg:January 15 (Monday)
+datefreshmanreg:January 15 (Monday)
+dateintlmanreg:January 15 - 16 (Monday - Tuesday)
+dateffamanreg:January 16 (Tuesday)
+timemanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Monday and Friday); 8:00 am - 12:00 nn (Tuesday) 
+timeintlmanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Monday); 8:00 am - 12:00 nn (Tuesday) 
+
+// Waiting Venues
+somwaitvenue:CTC 105
+sohsosswaitvenue:Faura AVR
+sosewaitvenue:SEC A 202
+intlwaitvenue:Faber Hall 309
+
+// Enlistment/Assessment Venues
+somenlistvenue:CTC 114
+sohsossenlistvenue:F227 - 228
+soseenlistvenue:SEC A 302
+
+//Manual Registration Notes
+assessmentnotes:For printing of assessment forms only, please proceed to SS Conference Room 3 & 4
+
+// Late Reg
+datelate:June 6-9 (Wednesday - Saturday)
+datelateid:TBA
+
+// Grad
+dategradonline:May 31 - June 1 (Thursday - Friday)
+timegradonline:10:00 am - 5:15 pm; 5:30 pm - 11:59 pm
+dategradmanreg:June 4-5 (Monday - Tuesday)
+timegradmanreg:8 am - 12 nn; 1 pm - 4 pm
+
+checkersvenue:Case Study Room (Social Sciences Bldg, 1st flr)
+gradvenue:SS 284
+
+// Grad Late
+gradlatenewinitvenue:Office of Associate Dean for Graduate Programs (OADGP, Kostka Hall, 1st flr)
+gradlateinitvenue:Registrar's Office (Social Sciences bldg, 1st)
+gradlateenlistvenue:Registrar's Office (Social Sciences bldg, 1st)
+gradlateassesvenue:Central Accounting Office (Faber Hall, 2nd flr)
+dategradlate:June 6-8
+timegradlate: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
+// New Grad
+newgradvenue:Office of the Associate Dean for Graduate Programs (OADGP, Kostka, 1st flr)
+
+// Payment
+dateoffcampus:May 31 - June 4
+dateoncampus:May 31 - June 5
+timeoncampus:<ul style="list-style: none;"><li class="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (May 31, June 1)</li><li class="indent">8:00 am - 4:00 pm (June 4-5)</li><li class="indent">8:00 am - 12:00 nn (June 2)</li></ul>
+
+dateoncampusoldgrad:May 31 - June 5
+dateoffcampusoldgrad:May 31 - June 4
+timeoncampusoldgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (January 8 - 11)</li><li class ="indent">8:00 am - 4:00 pm (January 12, 15)</li class ="indent"><li class ="indent">8:00 am - 12:00 nn (January 13, 16)</li></ul>
+
+dateoncampusnewgrad:May 31 - June 5 
+dateoffcampusnewgrad:May 31 - June 4 
+timeoncampusnewgrad:8 am - 4 pm (January 12, 15) 8 am - 12 nn (January 16)
+
+offcampusnotes:Off-campus payments that are not recognized by January 16, 2018, will be subject to the late registration fee.
+oncampusnotes:
+
+// ID Application/Validation
+iddate:June 4-9
+iddatenew:June 4-9
+idtime:9 am - 12 nn; 1 pm - 4 pm (Weekdays), and 9 am - 12 nn (Saturdays) 
+idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (3rd Flr)</li></ul>
+
+iddateintl:January 12, 15 - 19, 22 - 26 (Weekdays), and January 13, 20, 27 (Saturdays)
+
+datestrictid:TBA
+idnotes:*Note: Tuition Receipt is NOT needed anymore  for ID application/validation.
+
+// Load Revision
+deadlineloadrev1:June 14
+deadlineloadrev1day:Thursday
+deadlineloadrev2:June 20
+deadlineloadrev2day: Wednesday
+deadlineloadrev3:June 27
+deadlineloadrev3day: Wednesday
+loadrevvenue:Registrar's Office
+timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
+
+// Documents links
+link0regsched:files/0 2017 Second Sem Registration Schedules.pdf
+link1regsched2:files/01 2018 Intersession Registration Schedules.pdf 
+link2eta:files/02 2018 Intersession ETA.pdf
+link3aunderg:files/03 2018 Intersession Undergrad Reg Procedures.pdf
+link3bfresh:files/03b 2017 First Sem Freshmen and Transferees Reg Procedures.pdf
+link3cintl:files/03c 2017 Second Sem Undergrad International Exchange Reg Procedures.pdf
+link4underglate:files/04 2018 Intersession UnderGrad Late Registration.pdf
+link5oldg:files/05 2018 Intersession Old Grad Reg Procedures.pdf
+link6newg:files/06 2018 Intersession New Students Registration.pdf
+link7crossaud:files/07 2018 Intersession CrossReg Auditors Reg Procedures.pdf
+link8late:files/08 2018 Intersession Grad Late Registration.pdf
+link9gradscholar:files/09 2018 Graduate Students Scholarship Documents.pdf
+link10loadrev:files/10 2018 Intersession Load Revision.pdf
+link11proxy:files/11 2018 Intersession Proxy Guidelines.pdf
+link12rem:files/12 2018 Intersession General Reminders.pdf
+link13mistakes:files/13 2018 Intersessionm Frequently Made Mistakes.pdf
+link14dep:files/14 2018 Intersession The Departments and Their Locations.pdf
+link15onoff:files/15 2018 Intersession Tuition Payment Options (On and Off-Campus).pdf
+link16pay:files/16 2018 Intersession Tuition Payment Options (AISIS Linked).pdf
+link17payshort:files/17 2018 Intersession Tuition Payment Options (Short Version).pdf
+proxyletter:files/proxyletter.docx
+
+// Semester - Exclusive Information
+// Freshmen - First Semester
+freshaisispredate:February 14 - March 6, 2015
+freshaisisconfdate:March 16 - April 20, 2015
+freshiddate:July 26 - 28 (Wednesday - Friday) and August 9 - 16 (Wednesday - Saturday)
+dateupdateaisis:May 16, 2015
+dateoncampusfresh:July 26 - 27 , 29 (Wednesday - Thursday , Saturday)
+dateoffcampusfresh:July 26 - 27 , 29 (Wednesday - Thursday , Saturday)
+timeoncampusfresh:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (July 26 - 27, August 1 - 3)</li><li class ="indent">8:00 am - 4:00 pm (August 4 , 7)</li class ="indent"><li class ="indent">8:00 am - 12:00 nn (July 29; August 5 , 8)</li></ul>
+
+//Intersession    
+dateinteronlineday1:May 31, 2018
+dateinteronlineday2:June 1, 2018
+dateintermanualday1:June 4, 2018
+dateintermanualday2:June 5, 2018
+
+
+
+

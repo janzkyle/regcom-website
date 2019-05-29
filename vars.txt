@@ -1,0 +1,155 @@
+semester:Second Semester 2018-2019
+officehours:8:00 am - 12:00 nn, 1:00 pm - 4:00 pm
+sathours:8:00 am - 12:00 nn
+
+// Online Enlistment (Undergrad)
+timebatchone:9:00 am - 12:00 nn
+timebatchtwo:1:00 pm - 4:00 pm
+timeintlonline:9:30 am - 12:00 nn; 1:30 pm - 4:00 pm
+timeffaonline:4:15 pm - 11:59 pm
+
+datefreshmenonline:January 14 (Monday)
+datesophomoresonline:January 11 (Friday)
+datejuniorsonline:January 10 (Thursday)
+dateseniorsonline:January 9 (Wednesday)
+dateintlonline:January 10 (Thursday)
+dateffaonline:January 9-11, 14 (Wednesday - Friday, Monday)
+
+onlinenotes:
+
+// Manual Registration
+datesophseniorsmanreg:January 15 (Tuesday)
+datejuniorsmanreg:January 16 (Wednesday)
+datefreshmanreg:January 16 (Wednesday)
+dateintlmanreg:January 16 (Wednesday)
+dateffamanreg:January 17 (Thursday)
+timemanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Tuesday and Wednesday); 8:00 am - 12:00 nn (Thursday) 
+timeintlmanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Wednesday); 8:00 am - 12:00 nn (Thursday) 
+
+// Waiting Venues
+somwaitvenue:CTC 105
+sohsosswaitvenue:Faura AVR
+sosewaitvenue:SEC A 202
+intlwaitvenue:Faber Hall 309
+specialwaitvenue:ADAA
+
+// Enlistment/Assessment Venues
+somenlistvenue:CTC 114
+sohsossenlistvenue:F227-228
+soseenlistvenue:SEC A 302
+specialenlistvenue:ADAA
+
+//Manual Registration Notes
+assessmentnotes:For printing of assessment forms only, please proceed to SS Conference Room 1 & 2
+
+// Late Reg
+datelate:January 21-24 (Monday - Thursday)
+datelateid:
+
+// Grad
+dategradonline:January 9-11, 14 (Wednesday - Friday, Monday)
+timegradonline:10:00 am - 12:00 nn; 2:00 pm - 4:00pm; 4:15 pm - 11:59 pm
+dategradmanreg:January 15-17 (Tuesday - Thursday)
+timegradmanreg:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
+
+checkersvenue:Case Study Room (Social Sciences Bldg, 1st flr)
+gradvenue:SS 284
+
+// Grad Late
+gradlatenewinitvenue:Office of Associate Dean for Graduate Programs (OADGP, Kostka Hall, 1st flr)
+gradlateinitvenue:Registrar's Office (Social Sciences bldg, 1st)
+gradlateenlistvenue:Registrar's Office (Social Sciences bldg, 1st)
+gradlateassesvenue:Central Accounting Office (Faber Hall, 2nd flr)
+dategradlate:January 24-26 (Monday - Thursday)
+timegradlate:8:00 am - 12:00 nn o
+// New Grad
+newgradvenue:Office of the Associate Dean for Graduate Programs (OADGP, Kostka, 1st flr)
+
+// Payment
+dateoffcampus:January 9-16
+dateoncampus:January 9-12, 14-17
+timeoncampus:<ul style="list-style: none;"><li class="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class="indent">8:00 am - 12:00 nn (Saturday)</li></ul>
+
+dateoncampusoldgrad:January 9-12, 14-17
+dateoffcampusoldgrad:January 9-16
+timeoncampusoldgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
+
+dateoncampusnewgrad:January 15-17
+dateoffcampusnewgrad:January 15-16
+timeoncampusnewgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm</li></ul>
+
+offcampusnotes:Off-campus payments that are not recognized before January 20, will be subject to the late registration fee.
+oncampusnotes:
+
+// ID Application/Validation
+iddatesenior:Jan 22-23 (T-W)
+iddatejunior:Jan 21, 24 (M,Th)
+iddatesoph:Jan 22-23 (T-W)
+iddatefresh:Jan 21, 24 (M,Th)
+iddategrad:Jan 15-19, 21-26 (T-S, M-S)
+iddateffa:Jan 15-18, 19, 25, 26
+iddatenew:TBA
+idtime:9:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), and 9:00 am - 12:00 nn (Saturdays) 
+idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (3rd Flr)</li></ul>
+
+iddateintl:TBA
+
+datestrictid:Jan 28
+idnotes:*Note: Only freshmen and transferees need to show their Tuition receipt and claiming stub for ID application.
+
+// Load Revision
+deadlineloadrev1:January 28
+deadlineloadrev1day:Monday
+deadlineloadrev2:March 2
+deadlineloadrev2day:Saturday
+deadlineloadrev3:April 3
+deadlineloadrev3day: Wednesday
+loadrevvenue:Registrar's Office
+timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
+
+// Documents links
+link1regsched2:files/01 2018 Second Sem Registration Schedules.pdf 
+link2eta:files/02 2018 Second Sem ETA (1).pdf
+link3aunderg:files/3a.pdf
+//freshmen arent exluded from 3a// link3bfresh:files/03b 2018 First Sem Freshmen and Transferees Reg Procedures.pdf
+link3cintl:files/03c 2018 Second Sem International Exchange Reg Proccedures (1).pdf
+link4underglate:files/04 2018 Second Sem UnderGrad Late Registration.pdf
+link5oldg:files/05 2018 Second Sem Old Grad Reg Procedures.pdf
+link6newg:files/06 2018 Second Sem New Grad Registration.pdf
+link7crossaud:files/07 2018 Second Sem CrossReg Auditors Reg Procedures.pdf
+link8late:files/08 2018 Second Sem Grad Late Registration.pdf
+link9gradscholar:files/09 2018 Second Sem Graduate Students Scholarship Documents.pdf
+link10loadrev:files/10 2018 Second Sem Load Revision.pdf
+link11proxy:files/11 2018 Second Sem Proxy Guidelines.pdf
+link12rem:files/12 2018 Second Sem General Reminders.pdf
+link13mistakes:files/13 2018 Second Sem Frequently Made Mistakes.pdf
+link14dep:files/14 2018 Second Sem The Departments and Their Locations.pdf
+link15onoff:files/15 OFF CAMPUS PAYMENT OPTIONS.pdf
+link16pay:files/16 2018 Second Sem Tuition Payment Options_AISIS.pdf
+link17payshort:files/17 2018 Second Sem Tuition Payment Options_Short Version.pdf
+proxyletter:files/proxyletter.docx
+
+//Temporary
+//idlinks:Please refer to this link - <a href="https://web.facebook.com/AteneoSBB/posts/1930526373634419">ID-related Dates</a><br>
+//idfreshmen:For <strong>FRESHMEN</strong>, refer to this link - <a href="https://web.facebook.com/AteneoSBB/posts/1930518036968586">Freshmen ID Guidelines</a>
+
+
+// Semester - Exclusive Information
+// Freshmen - First Semester
+freshaisispredate:February 14 - March 6, 2015
+freshaisisconfdate:March 16 - April 20, 2015
+freshiddate:July 26-28 (Wednesday - Friday) and August 9-16 (Wednesday - Saturday)
+dateupdateaisis:May 16, 2015
+dateoncampusfresh:July 26-27 , 29 (Wednesday - Thursday , Saturday)
+dateoffcampusfresh:July 26-27 , 29 (Wednesday - Thursday , Saturday)
+timeoncampusfresh:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (July 26-27, August 1-3)</li><li class ="indent">8:00 am - 4:00 pm (August 4 , 7)</li class ="indent"><li class ="indent">8:00 am - 12:00 nn (July 29; August 5 , 8)</li></ul>
+
+//Intersession	
+dateinteronlineday1:May 31
+dateinteronlineday2:June 1
+dateintermanualday1:June 4
+dateintermanualday2:June 5
+
+
+
+

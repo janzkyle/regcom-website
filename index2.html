@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<!--Regcom 2015 website created by Web Sub-Committee Head Jennifer Lee-->
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+    	<!-- css link -->
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+    	<link href="css/style2.css" rel="stylesheet" type="text/css">
+    	<link href="css/navstyle.css" rel="stylesheet" type="text/css">
+
+        <!--font-->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    	<!-- favicon link -->
+    	<link rel="icon" href="images/favicon.ico">
+
+        <!--js link-->
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+
+    	<title>Ateneo Registration Committee</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <meta name="author" content="Ateneo Registration Committee">
+        <!--description that appears for the website when searched-->
+        <meta property="og:description" name="desription" content="This is the official website of Ateneo Registration Committee (RegCom), a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process.">
+        <!--tell the search engine the contents of your website-->
+        <meta name="keywords" content="Ateneo, Regcom, Ateneo Regcom, Ateneo Registration Comittee, Registration, admu, ateneo de manila university, registrars office, aisis, aisis online">
+        <!--tells facebook what to show https://developers.facebook.com/tools/debug/og/object/-->
+        <meta property="og:title" content="Ateneo Registration Committee" />
+        <meta property="og:url" content="http://regcom.ateneo.edu/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://regcom.ateneo.edu/images/logo.jpg" />
+        <script type="text/javascript">
+            function addhover(){
+                $(this).addClass('hover');
+            }
+        </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-48792662-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+	</head>
+	<body>
+        <div id="nav">
+            <ul>
+                <a href="index.html"><li><img src="images/logo.jpg" alt="ateneo regcom" height="50"></li></a>
+                <a onclick="toggle_visibility('menu');"><li class="menu"><strong>Menu</strong></li></a>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <nav>
+            <ul id="menu">
+                <a href="index.html"><li class="active">Home</li></a>
+                <a href="procedure.html"><li>Procedure</li></a>
+                <a href="batch.html"><li>Batch Schedule</li></a>
+                <a href="faq.html"><li>FAQs</li></a>
+                <a href="http://ls.ateneo.edu/class_schedule.php" target="_blank"><li>Offered Classes</li></a>
+                <a href="http://aisis.ateneo.edu" target="_blank"><li>AISIS</li></a>
+            </ul>
+        </nav>
+
+
+
+        <div id="cards" style="margin-top:51px;">    
+
+
+
+            <div class="grid-sizer"></div>
+            <!--one-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        <div class ="icons">
+                        <img src="images/online.png" class="onlineevent">
+                        <img src="images/manual.png" class="manualevent">
+                        </div>
+                        <h3 style="text-align: left;">May</h3>
+                        <h1 style="color:royalblue; text-align: left;  margin-bottom: 12px;">27</h1>
+                        
+                        <ul>
+                            <li>Undergraduate and Graduate release of Grades</li>
+                        </ul>
+					
+                    </div>
+                </div>
+            </div>
+            <!--two-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        
+                        <div class ="icons">
+                        <img src="images/online.png" class="onlineevent">
+                        </div>
+
+                        <h3 style="text-align: left;">May</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">31</h1>
+                    
+                        <ul>
+                            <li class="onlineevent">Undergraduates Online Registration for <strong>REQUIRED</strong> subjects</li>
+                            <li class="onlineevent">Graduates Online Registration</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <!--three-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+
+                        <div class ="icons">
+                            <img src="images/online.png" class="onlineevent">
+                        </div>
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">1</h1>
+
+                        <ul>
+                            <li class="onlineevent">Undergraduates Online Registration for <strong>REQUIRED</strong> and <strong> NOT REQUIRED</strong> (Free-for-All) subjects</li>
+                            <li class="onlineevent">Graduates Online Registration</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!--four-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        
+                        <div class ="icons">
+                            <img src="images/manual.png" class="manualevent">
+                            <img src="images/id.png" class="idevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">2</h1>
+
+                        <ul>
+                            <li class="manualevent">Undergraduates and Graduates Manual Registration</li>
+                            <li class="idevent">Start of ID Application</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <!--five-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        <div class ="icons">
+                            <img src="images/manual.png" class="manualevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">3</h1>
+                    
+                        <ul>
+                            <li class="manualevent">Undergraduates and Graduates Manual Registration Free-For-All</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <!--six-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        <div class ="icons">
+                            <img src="images/class.png" class="lateregevent">
+                            <img src="images/lateenlist.png" class="lateregevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">6</h1>
+
+
+                        <ul>
+                            <li>Intersession Classes Begin</li>
+                            <li class="lateregevent">Undergraduates and Graduates Late Registration (with Fine) Begin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--seven-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        
+                        <div class ="icons">
+                            <img src="images/deadenlist.png" class="lateregevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">8</h1>
+
+                        <ul>
+                            <li class="lateregevent">Undergraduates and Graduates Late Registration Deadline</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <!--eight-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+                        <div class ="icons">
+                            <img src="images/deadid.png" class="idevent">
+                            <img src="images/deadloadrev.png" class="loadrevevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">11</h1>
+                       
+
+                        <ul>
+                            <li class="idevent">Deadline for ID Application <br>
+                            (Until <strong>12:00 nn ONLY</strong>)<br>
+                            <li class="loadrevevent">Deadline of Load Revision Forms </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <!--nine-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+                
+                <div class="flipper">
+                    <div class="front">
+
+                        <div class ="icons">
+                            <img src="images/deadloadrev.png" class="loadrevevent">
+                        </div>
+
+                        <h3 style="text-align: left;">June</h3>
+                        <h1 style="color:royalblue; text-align: left; margin-bottom: 12px;">20</h1>
+                    
+                        <ul>
+                            <li class="loadrevevent">Deadline of Load Revision forms<br>
+                            for <strong>CREDIT TO AUDIT</strong><br>
+                            and <strong>WITHDRAWAL</strong></li>
+                        </ul>
+                    
+                    </div>
+                </div>
+
+        
+            </div>
+            <!--generate 3rd row-->
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');"></div>
+            <div class="card wrap" ontouchstart="this.classList.toggle('hover');"></div>
+             <!-- View in Calendar : 
+        <a onclick="toggle_visibility_class('onlineevent');">
+        <img src="images/online.png" class="calpick" id="cal-online"></a>
+        <a onclick="toggle_visibility_class('manualevent');">
+        <img src="images/manual.png" class="calpick" id="cal-manual">
+        </a>
+        <a onclick="toggle_visibility_class('loadrevevent');">
+        <img src="images/loadrev.png" class="calpick" id="cal-loadrev">
+        </a>
+        <a onclick="toggle_visibility_class('idevent');">
+        <img src="images/id.png" class="calpick" id="cal-id" onclick="toggle_visibility_class('idevent');"></a>
+ -->
+        </div>
+
+        <div class="blue">
+
+            <div class="section container wrap">
+                <h1>Who we are</h1>
+                <div>
+                    The <strong>Ateneo Registration Committee (RegCom)</strong> is a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process and assist all academic departments, administrative offices, personnel and students involved in it.
+                    <br><br>
+                    RegCom is responsible for producing and disseminating documents, reminders, and promotions pertaining to enlistment and the registration process. They also facilitate the flow of manual registration with the help of the Loyola Schools Assessment Team (LSAT).
+                </div>
+            </div>
+        </div>
+        <div class="container section">
+            <h1>Sponsors</h1>
+            <div class="sponsor">
+                <div><img src="images/birkenstock.jpg" alt="birkenstock" class="birkenstock"></div>
+                <div><img src="images/whitespace.jpg" alt="white_space" class="whitespace"></div>
+                <div><img src="images/stpio.jpg" alt="st_pio" class="icon"></div>
+                <div><img src="images/chubbychicken.jpg" alt="chubby_chicken" class="icon"></div>
+                <div><img src="images/happylemon.jpg" alt="happy_lemon" class="icon"></div>
+            </div>
+        </div>
+        <footer>
+           <div class="container section">
+                <h1>Contact Us</h1>
+                <div class="contact">
+                    <div>
+                        For any questions and/or concerns, feel free to reach us through the following online channels:
+                        <div class="socialicon">
+                            <a href="https://www.facebook.com/RegComHelpdesk"><i class="fa fa-facebook-square fa-5x"></i></a>
+                            <a href="https://twitter.com/AteneoRegcom"><i class="fa fa-twitter-square fa-5x"></i></a>
+                        </div>
+                        You may also visit the RegCom promo boards along the EDSA Walk.
+                        <br><br>
+                        Room 209 2nd Floor
+                        <br>
+                        Manuel V. Pangilinan Center for Student Leadership,
+                        <br>
+                        Ateneo de Manila University
+                        <br>
+                        Katipunan Avenue,
+                        Loyola Heights, Quezon City 
+                    </div>
+                    <div>
+                        <strong>Office of the Registrar</strong><br>
+                        426-6001 loc. 5130-5136
+                        <br><br>
+                        <strong>Office of the Associate Dean for Graduate Programs</strong><br>
+                        426-6001 loc. 5141-5142
+                        <br><br>
+                        <strong>Office of the Associate Dean for Academic Affairs</strong><br>
+                        426-6001 loc. 5011-5012
+                        <br><br>
+                        <strong>Office for Student Services</strong><br>
+                        426-6001 loc. 5020, 5021
+                        <br><br>
+                        <strong>Office of Admission and Aid</strong><br>
+                        426-6001 loc. 5154 – 5155
+                    </div>
+                </div>
+                <a href="suggest.html"><button>Suggestion Box</button></a>
+                <div class="copyright">Ateneo Registration Committee. Copyright 2015 All Rights Reserved.</div>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript">
+        $(function(){
+            var container = document.querySelector('#cards');
+            var msnry = new Masonry( container, {
+              itemSelector: '.card',
+              columnWidth: container.querySelector('.grid-sizer')
+            });
+        });
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+        }
+        function toggle_visibility_class(a) {
+            var e = [];
+            var e = getElementsByClassName(a);
+            for(i in e ){
+                if(!e[i])return true;
+
+                if(e[i].style.display=="none"){
+                   e[i].style.display="block"
+                } else {
+                   e[i].style.display="none"
+                }
+            }
+            return true;
+        }
+
+        function toggle(displayState){
+        var elements = document.getElementsByClassName('onlineevent')
+
+        for (var i = 0; i < elements.length; i++){
+            elements[i].style.display = displayState;
+        }
+    }
+    </script>
+    <script defer=""> 
+    var main = function() {
+      $(".cal-online").click(function() {
+            $("onlineevent").toggle();
+      });
+    };
+
+    $(document).ready(main); 
+    </script>
+</html>

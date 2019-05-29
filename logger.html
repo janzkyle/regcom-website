@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--Regcom 2015 website created by Web Sub-Committee Head Jennifer Lee-->
+<html lang='en'>
+	<head>
+        <meta charset="utf-8">
+        <!-- css link -->
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/navstyle.css" rel="stylesheet" type="text/css">
+
+        <!--font-->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- favicon link -->
+        <link rel="icon" href="images/favicon.ico">
+
+        <!--js link-->
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/script.js"></script>
+
+        <title>Ateneo Registration Committee</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <meta name="author" content="Ateneo Registration Committee">
+        <!--description that appears for the website when searched-->
+        <meta name="desription" content="This is the official website of Ateneo Registration Committee (RegCom), a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process.">
+        <!--tell the search engine the contents of your website-->
+        <meta name="keywords" content="Ateneo, Regcom, Ateneo Regcom, Ateneo Registration Comittee, Registration, admu, ateneo de manila university, registrars office, aisis, aisis online">
+        <!--TO NOT CACHE WEBSITE (ISH)-->
+        <!--META HTTP-EQUIV="Pragma" CONTENT="no-cache"-->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-48792662-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body>
+        <div class="container wrap section">
+            <h1>Batch Number Checker</h1>
+            <div id="logger" style="margin:0;">
+                <div class="id_input">Enter ID Number</div>
+                <input id='id_input' class="wrap" type='text' placeholder='Enter your ID number here'/>
+                <br>
+                <label class="online">Online Registration Batch Number</label>
+                <input id='online' class="wrap" type='text' readonly />
+                <br>
+                <label class="manual">Manual Registration Batch Number</label>
+                <input id='manual' class="wrap" type='text' readonly />
+                <br>
+                <label class="semester">Semester</label>
+                <input id='semester' class="wrap" type='text' readonly />
+                <br>
+                <label class="name">Name</label>
+                <input id='name' class="wrap" type='text' readonly />
+                <br>
+                <label class="year">Year</label>
+                <input id='year' class="wrap" type='text' readonly />
+                <br>
+                <label class="course">Course</label>
+                <input id='course' class="wrap" type='text' readonly />
+                <button id="search">Search</button>
+                <div style="clear:both"></div>
+                <button id="enlist">Enlistment</button>
+                <button id="assess">Assessment</button>
+                <div style="clear:both"></div>
+                <label class="enlist">Enlistment</label>
+                <input id='enlistcount' class="wrap" type='text' readonly />
+                <label class="assess">Assessment</label>
+                <input id='assesscount' class="wrap" type='text' readonly />
+            </div>
+            <div class="instruction">
+                <h2>Instructions: </h2>
+                This is the app used for checking whether or not a student is in the right batch, school, etc.<br><br>
+                Input the student's ID number, if the batch is correct then click <strong>Enlistment</strong> or <strong>Assessment</strong>.<br><br>
+                At the end of the day take note/print screen of the enlistment and assessment tally. <strong>PLEASE DO NOT REFRESH THE PAGE</strong><br><br>
+                For backup download: <a href="files/batchnumber.xlsx">Batch Numbers</a>
+            </div>
+        </div>
+    </body>
+    <script>
+        $(document).ready(function(){
+            
+            $("#search").click(function(){
+                var file;
+                if ($("#id_input").val() >= 120000 && $("#id_input").val() < 122500){
+                    file = "data/120000.csv";
+                }
+                else if($("#id_input").val() >= 122500 && $("#id_input").val() < 125000){
+                    file = "data/122500.csv";
+                }
+                else if($("#id_input").val() >= 125000 && $("#id_input").val() < 127500){
+                    file = "data/125000.csv";
+                }
+                else if($("#id_input").val() >= 127500 && $("#id_input").val() < 130000){
+                    file = "data/127500.csv";
+                }
+                else if($("#id_input").val() >= 130000 && $("#id_input").val() < 132500){
+                    file = "data/130000.csv";
+                }
+                else if($("#id_input").val() >= 132500 && $("#id_input").val() < 135000){
+                    file = "data/132500.csv";
+                }
+                else if($("#id_input").val() >= 135000 && $("#id_input").val() < 137500){
+                    file = "data/135000.csv";
+                }
+                else if($("#id_input").val() >= 137500 && $("#id_input").val() < 140000){
+                    file = "data/137500.csv";
+                }
+                else if($("#id_input").val() >= 140000 && $("#id_input").val() < 142500){
+                    file = "data/140000.csv";
+                }
+                else if($("#id_input").val() >= 142500 && $("#id_input").val() < 145000){
+                    file = "data/142500.csv";
+                }
+                else if($("#id_input").val() >= 145000 && $("#id_input").val() < 147500){
+                    file = "data/145000.csv";
+                }
+                else if($("#id_input").val() >= 147500 && $("#id_input").val() < 150000){
+                    file = "data/147500.csv";
+                }
+                else if($("#id_input").val() >= 150000 && $("#id_input").val() < 152500){
+                    file = "data/150000.csv";
+                }
+                else if($("#id_input").val() >= 152500 && $("#id_input").val() < 155000){
+                    file = "data/152500.csv";
+                }
+                else if($("#id_input").val() >= 155000 && $("#id_input").val() < 157500){
+                    file = "data/155000.csv";
+                }
+                else if($("#id_input").val() >= 157500 && $("#id_input").val() < 160000){
+                    file = "data/157500.csv";
+                }
+                else{
+                    file = "data/others.csv"
+                }
+                 $.get(  
+                    file,  
+                    {language: "html", version: 5},  
+                    function(response){  
+                        
+                        var temp = new String(response);
+                        console.log(temp);
+                        var array = new Array();
+                        array = temp.split("\n");
+                        
+                        var length = array.length,
+                        element = null;
+                        var found = false;
+                        for (var i = 0; i < length; i++) {
+                            element = array[i];
+                            tempStudent = element.split(",");
+                            array[i] = tempStudent;
+
+                            if(tempStudent[0] == $("#id_input").val() ){
+                                found = true;
+                                $("#online").val(tempStudent[1]);
+                                $("#manual").val(tempStudent[2]);
+                                $("#name").val(tempStudent[3] + "," +tempStudent[4]);
+                                $("#year").val(tempStudent[5]);
+                                $("#course").val(tempStudent[6]);
+                                $("#semester").val(tempStudent[7]);
+                            }
+                        }
+                        if(found == false){
+                            alert("ID number not found");
+                        } 
+                    },  
+                    "html"  
+                );
+            });
+            $('#id_input').keypress(function(e){
+                if(e.which == 13){//Enter key pressed
+                    $('#search').click();//Trigger search button click event
+                }
+            });
+            $('#id_input').submit(function(){
+                    event.preventDefault().
+                    $('#search').click();//Trigger search button click event
+            });          
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#enlist').click(function() {
+                var counter = $('#enlistcount').val();
+                counter++ ;
+                $('#enlistcount').val(counter);
+            });
+            $('#assess').click(function() {
+                var counter = $('#assesscount').val();
+                counter++ ;
+                $('#assesscount').val(counter);
+            });
+        });
+    </script>
+</html>
