@@ -1,442 +1,404 @@
 <!DOCTYPE html>
 <!--Regcom 2015 website created by Web Sub-Committee Head Jennifer Lee-->
 <html lang='en'>
-	<head>
-		<meta charset="utf-8">
-    	<!-- css link -->
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-    	<link href="css/style.css" rel="stylesheet" type="text/css">
-    	<link href="css/navstyle.css" rel="stylesheet" type="text/css">
 
-        <!--font-->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="utf-8">
+    <!-- css link -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/navstyle.css" rel="stylesheet" type="text/css">
 
-    	<!-- favicon link -->
-    	<link rel="icon" href="images/favicon.ico">
+    <!--font-->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <!--js link-->
-        <script src="js/masonry.pkgd.min.js"></script>
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <script src="js/jquery-ui.js"></script>
+    <!-- favicon link -->
+    <link rel="icon" href="images/favicon.ico">
 
-    	<title>Ateneo Registration Committee</title>
+    <!--js link-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <meta name="author" content="Ateneo Registration Committee">
-        <!--description that appears for the website when searched-->
-        <meta property="og:description" name="desription" content="This is the official website of Ateneo Registration Committee (RegCom), a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process.">
-        <!--tell the search engine the contents of your website-->
-        <meta name="keywords" content="Ateneo, Regcom, Ateneo Regcom, Ateneo Registration Comittee, Registration, admu, ateneo de manila university, registrars office, aisis, aisis online">
-        <!--tells facebook what to show https://developers.facebook.com/tools/debug/og/object/-->
-        <meta property="og:title" content="Ateneo Registration Committee" />
-        <meta property="og:url" content="http://regcom.ateneo.edu/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://regcom.ateneo.edu/images/logo.jpg" />
-        <script type="text/javascript">
-            function addhover(){
-                $(this).addClass('hover');
-            }
-        </script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <title>Ateneo Registration Committee</title>
 
-          ga('create', 'UA-48792662-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-	</head>
-	<body>
-        <div id="nav">
-            <ul>
-                <a href="index.html"><li><img src="images/logo.jpg" alt="ateneo regcom" height="50"></li></a>
-                <a onclick="toggle_visibility('menu');"><li class="menu"><strong>Menu</strong></li></a>
-                <div style="clear:both;"></div>
-            </ul>
-        </div>
-        <nav>
-            <ul id="menu">
-                <a href="index.html"><li class="active">Home</li></a>
-                <a href="procedure.php"><li>Procedure</li></a>
-                <a href="batch.php"><li>Batch Schedule</li></a>
-                <a href="faq.php"><li>FAQs</li></a>
-                <a href="http://reg-system-server.herokuapp.com/" target="_blank"><li>ManReg System</li></a>
-                <a href="http://ls.ateneo.edu/class_schedule.php" target="_blank"><li>Offered Classes</li></a>
-                <a href="http://aisis.ateneo.edu" target="_blank"><li>AISIS</li></a>
-
-            </ul>
-        </nav>
-        <div id="cards" style="margin-top:51px;">
-            <div class="grid-sizer"></div>
-
-            <!--one-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/2.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>June</h3>
-                        <h1>6</h1>
-                        <img src="images/online.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Graduates and <strong>Required</strong> Undergraduates Online Enlistment</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--two-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/2.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>June</h3>
-                        <h1>7</h1>
-                        <img src="images/online.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Graduates and Undergraduates Online Enlistment</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--three-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/2.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>11</h1>
-                        <img src="images/online.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Sophomores and Graduate Students Online Enlistment</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--four-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/3.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>14</h1>
-                        <img src="images/online.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Freshmen, Transferees and Graduate Students Online Enlistment</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--five-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/3.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>15</h1>
-                        <img src="images/manual.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Seniors, Sophomores and Graduate Students Manual Registration</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--six-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/2.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>16</h1>
-                        <img src="images/manual.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Juniors, Freshmen, Undergraduate International Exchange Students and Graduate Students Manual Registration</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--seven-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/3.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>17</h1>
-                        <img src="images/manual.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Free-for-all Manual Registration</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--eight-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/3.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>21-24</h1>
-                        <img src="images/class.png">
-						<img src="images/regform.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Start of Second Semester Classes</li>
-							<li>Undergraduate Late Registration (with fine)</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--nine-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/2.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>24-26</h1>
-						<img src="images/regform.png">
-                        <img src="images/deadenlist.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Graduate Late Registration (with fine)</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--ten-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/4.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>January</h3>
-                        <h1>28</h1>
-                        <img src="images/id.png">
-                        <img src="images/deadloadrev.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Load Revision Deadline for the following: Changing Sections, Changing Status from Audit to Credit, Adding/Withdrawing Courses</li>
-                            <li> Strict ID wearing implementation</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--eleven-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/4.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>March</h3>
-                        <h1>2</h1>
-                        <img src="images/deadloadrev.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Load Revision Deadline for Changing Status from Credit to Audit</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-            <!--twelve-->
-            <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
-                <!--div style="height:100%; overflow:hidden;">
-                    <img class="cardimg" src="images/4.png" width="100%">
-                </div-->
-                <div class="flipper">
-                    <div class="front">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <h3>April</h3>
-                        <h1>3</h1>
-                        <img src="images/deadloadrev.png">
-                    <!--/div-->
-                    </div>
-                    <div class="back">
-                        <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
-                        <ul>
-                            <li>Load Revision Deadline for Withdrawing from a Class with Permission</li>
-                        </ul>
-                    <!--/div-->
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-        <div class="blue">
-            <div class="section container wrap">
-                <h1>Who we are</h1>
-                <div>
-                    The <strong>Ateneo Registration Committee (RegCom)</strong> is a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process and assist all academic departments, administrative offices, personnel and students involved in it.
-                    <br><br>
-                    RegCom is responsible for producing and disseminating documents, reminders, and promotions pertaining to enlistment and the registration process. They also facilitate the flow of manual registration with the help of the Loyola Schools Assessment Team (LSAT).
-                </div>
-            </div>
-        </div>
-        <div class="container section">
-            <h1>Sponsors</h1>
-            <div class="sponsor">
-                <!--div><img src="images/birkenstock.jpg" alt="birkenstock" class="birkenstock"></div-->
-				<!--div><img src="images/wingstop.jpg" alt="wingstop" class="icon"></div-->
-                <!--div><img src="images/lettercraft.jpg" alt="letter_Craft" class="icon"></div-->
-                <!--div><img src="images/armynavy.jpg" alt="army_navy" class="icon"></div-->
-                <!--div><img src="images/happylemon.jpg" alt="happy_lemon" class="icon"></div-->
-
-				<div><img src="images/schoolbus.png" alt="school_bus_clothing" class="icon" style="margin: 0px 7px 0px 7px;"></div>		
-                <div><img src="images/hittheroad.jpg" alt="hit_the_road" class="icon" style="margin: 0px 7px 0px 7px;"></div>
-                <div><img src="images/stpio.jpg" alt="st_pio" class="icon" style="margin: 0px 7px 0px 7px;"></div>
-                <div><img src="images/getblued.jpg" alt="get_blued" class="icon" id="getblued" style="margin: 0px 70px 0px 70px;"></div>
-				
-            </div>
-        </div>
-        <footer>
-           <div class="container section">
-                <h1>Contact Us</h1>
-                <div class="contact">
-                    <div>
-                        For any questions and/or concerns, feel free to reach us through the following online channels:
-                        <div class="socialicon">
-                            <a href="https://www.facebook.com/RegComHelpdesk"><i class="fa fa-facebook-square fa-5x"></i></a>
-                            <a href="https://twitter.com/AteneoRegcom"><i class="fa fa-twitter-square fa-5x"></i></a>
-                        </div>
-                        You may also visit the RegCom promo boards along the EDSA Walk.
-                        <br><br>
-                        Room 209 2nd Floor
-                        <br>
-                        Manuel V. Pangilinan Center for Student Leadership,
-                        <br>
-                        Ateneo de Manila University
-                        <br>
-                        Katipunan Avenue,
-                        Loyola Heights, Quezon City
-                    </div>
-                    <div>
-                        <strong>Office of the Registrar</strong><br>
-                        426-6001 loc. 5130-5136
-                        <br><br>
-                        <strong>Office of the Associate Dean for Graduate Programs</strong><br>
-                        426-6001 loc. 5141-5142
-                        <br><br>
-                        <strong>Office of the Associate Dean for Academic Affairs</strong><br>
-                        426-6001 loc. 5011-5012
-                        <br><br>
-                        <strong>Office for Student Services</strong><br>
-                        426-6001 loc. 5020, 5021
-                        <br><br>
-                        <strong>Office of Admission and Aid</strong><br>
-                        426-6001 loc. 5154 – 5155
-                    </div>
-                </div>
-                <div class="copyright">Ateneo Registration Committee. Copyright 2015 All Rights Reserved.</div>
-            </div>
-        </footer>
-    </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Ateneo Registration Committee">
+    <!--description that appears for the website when searched-->
+    <meta property="og:description" name="desription"
+        content="This is the official website of Ateneo Registration Committee (RegCom), a body of selected student volunteers who are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process.">
+    <!--tell the search engine the contents of your website-->
+    <meta name="keywords"
+        content="Ateneo, Regcom, Ateneo Regcom, Ateneo Registration Comittee, Registration, admu, ateneo de manila university, registrars office, aisis, aisis online">
+    <!--tells facebook what to show https://developers.facebook.com/tools/debug/og/object/-->
+    <meta property="og:title" content="Ateneo Registration Committee" />
+    <meta property="og:url" content="http://regcom.ateneo.edu/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://regcom.ateneo.edu/images/logo.jpg" />
     <script type="text/javascript">
-        $(function(){
-            var container = document.querySelector('#cards');
-            var msnry = new Masonry( container, {
-              itemSelector: '.card',
-              columnWidth: container.querySelector('.grid-sizer')
-            });
-        });
-        function toggle_visibility(id) {
-           var e = document.getElementById(id);
-           if(e.style.display == 'block')
-              e.style.display = 'none';
-           else
-              e.style.display = 'block';
+        function addhover() {
+            $(this).addClass('hover');
         }
     </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48792662-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <a href="index.html">
+                <li><img src="images/logo.jpg" alt="ateneo regcom" height="50"></li>
+            </a>
+            <a onclick="toggle_visibility('menu');">
+                <li class="menu"><strong>Menu</strong></li>
+            </a>
+            <div style="clear:both;"></div>
+        </ul>
+    </div>
+    <nav>
+        <ul id="menu">
+            <a href="index.html">
+                <li class="active">Home</li>
+            </a>
+            <a href="procedure.php">
+                <li>Procedure</li>
+            </a>
+            <a href="batch.php">
+                <li>Batch Schedule</li>
+            </a>
+            <a href="faq.php">
+                <li>FAQs</li>
+            </a>
+            <a href="http://reg-system-server.herokuapp.com/" target="_blank">
+                <li>ManReg System</li>
+            </a>
+            <a href="http://ls.ateneo.edu/class_schedule.php" target="_blank">
+                <li>Offered Classes</li>
+            </a>
+            <a href="http://aisis.ateneo.edu" target="_blank">
+                <li>AISIS</li>
+            </a>
+
+        </ul>
+    </nav>
+    <div id="cards" style="margin-top:51px;">
+        <div class="grid-sizer"></div>
+
+        <!--one-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/2.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>6</h1>
+                    <img src="images/online.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Graduate and <strong>Required</strong> Undergraduate Students Online Enlistment</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--two-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/2.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>7</h1>
+                    <img src="images/online.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Graduate and Undergraduate Students Online Enlistment</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--three-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/2.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>10</h1>
+                    <img src="images/manual.png">
+                    <img src="images/id.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Graduate and Undergraduate Students Manual Registration</li>
+                        <li>Start of ID Application</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--four-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/3.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>11</h1>
+                    <img src="images/manual.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Free-for-all Manual Registration</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--five-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/3.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>13-15</h1>
+                    <img src="images/class.png">
+                    <img src="images/regform.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Start of Intersession Classes</li>
+                        <li>Late Registration (with fine)</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--six-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/2.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>20</h1>
+                    <img src="images/deadloadrev.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Load Revision Deadline for the following: Adding/Withdrawing Courses, Changing Sections, Changing Status from Audit to Credit</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+
+        <!--seven-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/3.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>27</h1>
+                    <img src="images/id.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Deadline of ID Application (with sanction)</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--eight-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/3.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>June</h3>
+                    <h1>27</h1>
+                    <img src="images/deadloadrev.png">
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Load Revision Deadline for Changing Status from Credit to Audit</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+        <!--nine-->
+        <div class="card wrap" ontouchstart="this.classList.toggle('hover');">
+            <!--div style="height:100%; overflow:hidden;">
+                    <img class="cardimg" src="images/2.png" width="100%">
+                </div-->
+            <div class="flipper">
+                <div class="front">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <h3>July</h3>
+                    <h1>4</h1>
+                    <img src="images/deadloadrev.png"
+                    <!--/div-->
+                </div>
+                <div class="back">
+                    <!--div style="background-color: rgba(255,255,255,0.7); width: 80%; margin-left: 10%;"-->
+                    <ul>
+                        <li>Load Revision Deadline for Withdrawing from a Class with Permission</li>
+                    </ul>
+                    <!--/div-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="blue">
+        <div class="section container wrap">
+            <h1>Who we are</h1>
+            <div>
+                The <strong>Ateneo Registration Committee (RegCom)</strong> is a body of selected student volunteers who
+                are tasked by the Registrar’s Office (RO) to enforce and facilitate the registration process and assist
+                all academic departments, administrative offices, personnel and students involved in it.
+                <br><br>
+                RegCom is responsible for producing and disseminating documents, reminders, and promotions pertaining to
+                enlistment and the registration process. They also facilitate the flow of manual registration with the
+                help of the Loyola Schools Assessment Team (LSAT).
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <h1>Sponsors</h1>
+        <div class="sponsor">
+            <!--div><img src="images/birkenstock.jpg" alt="birkenstock" class="birkenstock"></div-->
+            <!--div><img src="images/wingstop.jpg" alt="wingstop" class="icon"></div-->
+            <!--div><img src="images/lettercraft.jpg" alt="letter_Craft" class="icon"></div-->
+            <!--div><img src="images/armynavy.jpg" alt="army_navy" class="icon"></div-->
+            <!--div><img src="images/happylemon.jpg" alt="happy_lemon" class="icon"></div-->
+
+            <div><img src="images/schoolbus.png" alt="school_bus_clothing" class="icon"
+                    style="margin: 0px 7px 0px 7px;"></div>
+            <div><img src="images/hittheroad.jpg" alt="hit_the_road" class="icon" style="margin: 0px 7px 0px 7px;">
+            </div>
+            <div><img src="images/stpio.jpg" alt="st_pio" class="icon" style="margin: 0px 7px 0px 7px;"></div>
+            <div><img src="images/getblued.jpg" alt="get_blued" class="icon" id="getblued"
+                    style="margin: 0px 70px 0px 70px;"></div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container section">
+            <h1>Contact Us</h1>
+            <div class="contact">
+                <div>
+                    For any questions and/or concerns, feel free to reach us through the following online channels:
+                    <div class="socialicon">
+                        <a href="https://www.facebook.com/RegComHelpdesk"><i
+                                class="fa fa-facebook-square fa-5x"></i></a>
+                        <a href="https://twitter.com/AteneoRegcom"><i class="fa fa-twitter-square fa-5x"></i></a>
+                    </div>
+                    You may also visit the RegCom promo boards along the EDSA Walk.
+                    <br><br>
+                    Room 209 2nd Floor
+                    <br>
+                    Manuel V. Pangilinan Center for Student Leadership,
+                    <br>
+                    Ateneo de Manila University
+                    <br>
+                    Katipunan Avenue,
+                    Loyola Heights, Quezon City
+                </div>
+                <div>
+                    <strong>Office of the Registrar</strong><br>
+                    426-6001 loc. 5130-5136
+                    <br><br>
+                    <strong>Office of the Associate Dean for Graduate Programs</strong><br>
+                    426-6001 loc. 5141-5142
+                    <br><br>
+                    <strong>Office of the Associate Dean for Academic Affairs</strong><br>
+                    426-6001 loc. 5011-5012
+                    <br><br>
+                    <strong>Office for Student Services</strong><br>
+                    426-6001 loc. 5020, 5021
+                    <br><br>
+                    <strong>Office of Admission and Aid</strong><br>
+                    426-6001 loc. 5154 – 5155
+                </div>
+            </div>
+            <div class="copyright">Ateneo Registration Committee. Copyright 2015 All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var container = document.querySelector('#cards');
+        var msnry = new Masonry(container, {
+            itemSelector: '.card',
+            columnWidth: container.querySelector('.grid-sizer')
+        });
+    });
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+</script>
+
 </html>
