@@ -1,4 +1,4 @@
-semester:Second Semester 2018-2019
+semester:Intersession 2019-2020
 officehours:8:00 am - 12:00 nn, 1:00 pm - 4:00 pm
 sathours:8:00 am - 12:00 nn
 
@@ -6,14 +6,14 @@ sathours:8:00 am - 12:00 nn
 timebatchone:9:00 am - 12:00 nn
 timebatchtwo:1:00 pm - 4:00 pm
 timeintlonline:9:30 am - 12:00 nn; 1:30 pm - 4:00 pm
-timeffaonline:4:15 pm - 11:59 pm
+timeffaonline:4:00 pm - 11:59 pm
 
 datefreshmenonline:January 14 (Monday)
 datesophomoresonline:January 11 (Friday)
 datejuniorsonline:January 10 (Thursday)
 dateseniorsonline:January 9 (Wednesday)
 dateintlonline:January 10 (Thursday)
-dateffaonline:January 9-11, 14 (Wednesday - Friday, Monday)
+dateffaonline:June 7
 
 onlinenotes:
 
@@ -29,14 +29,14 @@ timeintlmanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Wednesday); 8:00 am - 12:
 // Waiting Venues
 somwaitvenue:CTC 105
 sohsosswaitvenue:Faura AVR
-sosewaitvenue:SEC A 202
+sosewaitvenue:Matteo Ricci Hall B
 intlwaitvenue:Faber Hall 309
 specialwaitvenue:ADAA
 
 // Enlistment/Assessment Venues
 somenlistvenue:CTC 114
 sohsossenlistvenue:F227-228
-soseenlistvenue:SEC A 302
+soseenlistvenue:Matteo Ricci Hall A
 specialenlistvenue:ADAA
 
 //Manual Registration Notes
@@ -47,9 +47,9 @@ datelate:January 21-24 (Monday - Thursday)
 datelateid:
 
 // Grad
-dategradonline:January 9-11, 14 (Wednesday - Friday, Monday)
-timegradonline:10:00 am - 12:00 nn; 2:00 pm - 4:00pm; 4:15 pm - 11:59 pm
-dategradmanreg:January 15-17 (Tuesday - Thursday)
+dategradonline:June 6-7 (Thursday - Friday)
+timegradonline:10:00 am - 04:00 pm; 04:00 pm - 11:59 pm
+dategradmanreg:June 10-11 (Monday - Tuesday)
 timegradmanreg:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
 
 checkersvenue:Case Study Room (Social Sciences Bldg, 1st flr)
@@ -145,10 +145,10 @@ dateoffcampusfresh:July 26-27 , 29 (Wednesday - Thursday , Saturday)
 timeoncampusfresh:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (July 26-27, August 1-3)</li><li class ="indent">8:00 am - 4:00 pm (August 4 , 7)</li class ="indent"><li class ="indent">8:00 am - 12:00 nn (July 29; August 5 , 8)</li></ul>
 
 //Intersession	
-dateinteronlineday1:May 31
-dateinteronlineday2:June 1
-dateintermanualday1:June 4
-dateintermanualday2:June 5
+dateinteronlineday1:June 6
+dateinteronlineday2:June 7
+dateintermanualday1:June 10
+dateintermanualday2:June 11
 
 
 

@@ -39,12 +39,12 @@
                 OAA scholars must have their assessment forms stamped by OAA before payment<br>
                 For other concerns check: <a href="faq.php">Frequently Asked Questions</a><br>
                 <ul>Date: <!-- <?php echo $undergdateonline ?> <br> -->
-                	<!--li class = "indent"><?php echo $dateinteronlineday1 ?> - Undergraduates <b>required</b> to take Intersession classes</li>
-                    <li class = "indent"><?php echo $dateinteronlineday2 ?> - Undergraduates <b>required</b> and <b>not required</b> to take Intersession classes</li-->
-                    <li class = "indent"><?php echo $dateseniorsonline ?> - Seniors and Superseniors</li>
+                	<li class = "indent"><?php echo $dateinteronlineday1 ?> - Undergraduates <strong>required</strong> to take Intersession classes</li>
+                    <li class = "indent"><?php echo $dateinteronlineday2 ?> - Undergraduates <strong>required</strong> and <strong>not required</strong> to take Intersession classes</li>
+                    <!--li class = "indent"><?php echo $dateseniorsonline ?> - Seniors and Superseniors</li>
                     <li class = "indent"><?php echo $datejuniorsonline ?> - Juniors and Undergraduate International Exchange Students</li>
                     <li class = "indent"><?php echo $datesophomoresonline ?> - Sophomores</li>
-					<li class = "indent"><?php echo $datefreshmenonline ?> - Freshmen</li>
+					<li class = "indent"><?php echo $datefreshmenonline ?> - Freshmen</li-->
                 </ul> <br>
                 <?php echo $onlinenotes ?>
             </p>
@@ -61,14 +61,14 @@
             <p>
                 <strong>NO VALID ID NO ENTRY*</strong><br>
                 <ul>Dates: <!-- <?php echo $dateundergmanreg ?> -->
-                	<!--li class = "indent"><?php echo $dateintermanualday1 ?> - All Year Levels (Batching Applies)</li>
+                	<li class = "indent"><?php echo $dateintermanualday1 ?> - All Year Levels (Batching Applies)</li>
                     Time: <?php echo $officehours ?><br>
-                	<li class = "indent"><?php echo $dateintermanualday2 ?> - All Year Levels (Free for All)</li>
-                    Time: <?php echo $sathours ?><br-->
-                    <li class = "indent"><?php echo $datesophseniorsmanreg ?> - Sophomores, Seniors and Superseniors</li>
+                	<li class = "indent"><?php echo $dateintermanualday2 ?> - All Year Levels (Free-for-all)</li>
+                    Time: <?php echo $sathours ?><br>
+                    <!--li class = "indent"><?php echo $datesophseniorsmanreg ?> - Sophomores, Seniors and Superseniors</li>
                     <li class = "indent"><?php echo $datejuniorsmanreg ?> - Juniors and Undergraduate International Exchange Students</li>
                     <li class = "indent"><?php echo $datefreshmanreg ?> - Freshmen</li>
-                    <li class = "indent"><?php echo $dateffamanreg ?> - All year levels (Free-for-all)</li>
+                    <li class = "indent"><?php echo $dateffamanreg ?> - All year levels (Free-for-all)</li-->
                 </ul>
                 Come during your <a href="batch.php">batch schedule</a>
                 <ul>Venue:

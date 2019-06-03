@@ -132,15 +132,11 @@
         	<!-- Intersession -->
              <tr>
                 <td><?php echo $dateinteronlineday1 ?></td>
-                <td>Undergraduates <strong> required </strong> to take Intersession classes and Graduate students</td>
+                <td>Undergraduates <strong> required </strong> to take Intersession classes, and Graduate students</td>
             </tr>
              <tr>
                 <td><?php echo $dateinteronlineday2 ?></td>
-                <td>Undergraduates <strong> required </strong> and <strong> not required </strong> to take Intersession classes, and Graduate students’ enlistment</td>
-            </tr>
-            <tr>
-                <td><?php echo $dategradonline ?></td>
-                <td>Graduates</td>
+                <td>Undergraduates <strong> required </strong> and <strong> not required </strong> to take Intersession classes, and Graduate students</td>
             </tr>
         </tbody>
     </table>
@@ -175,52 +171,33 @@
                     <?php echo $timegradonline ?>
                 </td>
             </tr>
-            <!--Exchange students-->
+            <!--Exchange students>
             <tr>
                 <td>Undergraduate Int'l Exchange Students</td>
                 <td><?php echo $timeintlonline ?></td>
-            </tr >
+            </tr -->
+
 
             <!-- Intersession -->
             < <tr>
                 <td>1</td>
                 <td><?php echo $dateinteronlineday1 ?><br>
-                    8:00 am - 10:00 am</td>
+                    9:00 am - 12:00 pm</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td><?php echo $dateinteronlineday1 ?><br>
-                   10:15 am - 12:15 pm</td>
+                   1:00 pm - 4:00 pm</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td><?php echo $dateinteronlineday1 ?><br>
-                    1:00 pm - 3:00 pm</td>
+                <td><?php echo $dateinteronlineday2 ?><br>
+                    9:00 am - 12:00 pm</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td><?php echo $dateinteronlineday1 ?><br>
-                    3:15 pm - 5:15 pm</td>
-            </tr>
-            <tr>
-                <td>5</td>
                 <td><?php echo $dateinteronlineday2 ?><br>
-                    8:00 am - 10:00 am</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td><?php echo $dateinteronlineday2 ?><br>
-                    10:15 am - 12:15 pm</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td><?php echo $dateinteronlineday2 ?><br>
-                    1:00 pm - 3:00 pm</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td><?php echo $dateinteronlineday2 ?><br>
-                    3:15 pm - 5:15 pm</td>
+                    1:00 pm - 4:00 pm</td>
             </tr>
 
             <!-- Free for All -->
@@ -239,7 +216,7 @@
         </tbody>
     </table>
 
-    <h3 class="title">Manual Enlistment Schedule and Venue</h3>
+    <h3 class="title">Manual Enlistment Schedule</h3>
     <table>
         <thead>
             <tr>
@@ -252,7 +229,7 @@
                 <td class="subtitle">Year Level</td>
             </tr>
 			
-            <tr>
+            <!--tr>
                 <td><?php echo $datesophseniorsmanreg ?></td>
                 <td>Sophomores, Seniors, and Superseniors</td>
             </tr>
@@ -260,23 +237,23 @@
             <tr>
                 <td><?php echo $datejuniorsmanreg ?></td>
                 <td>Juniors</td>
-            </tr>
+            </tr -->
 			
-            <!-- <tr>
+            <tr>
                 <td><?php echo $dateintermanualday1 ?></td>
                 <td>All Year Levels (Batching Applies)</td>
             </tr>
              <tr>
                 <td><?php echo $dateintermanualday2 ?></td>
-                <td>All Year Levels (Free For All)</td>
-            </tr> -->
+                <td>All Year Levels (Free-for-all)</td>
+            </tr>
 
             <tr>
                 <td><?php echo $dategradmanreg ?></td>
                 <td>Graduates</td>
             </tr>
             
-            <tr>
+            <!--tr>
                 <td><?php echo $dateintlmanreg ?></td>
                 <td>Undergraduate Int'l Exchange Students</td>
             </tr>
@@ -289,7 +266,7 @@
 			<tr>
                 <td><?php echo $dateffamanreg ?></td>
                 <td>All Year Levels (Free-For-All)</td>
-            </tr>
+            </tr-->
            
         </tbody>
     </table>
