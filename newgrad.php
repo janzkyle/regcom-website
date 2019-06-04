@@ -144,10 +144,14 @@
                 <strong>NO PROXIES for any ID matters</strong><br>
                 <strong>LST Students have a delayed ID application</strong><br>
  
-				<?php echo $idlinks ?>
-				<?php echo $idfreshmen ?>
+				<!-- ?php echo $idlinks ?-->
+				<!-- ?php echo $idfreshmen ?-->
  
-				Date: <?php echo $iddategrad ?><br>
+                Date:
+                <p class="indent">
+                    <?php echo $iddateint2 ?><br>
+                    <?php echo $iddateintsat ?><br>
+                </p>
                 Time: <?php echo $idtime ?><br>
                 Venue: <strong><?php echo $idvenue ?></strong><br>
                 You ARE NOT OFFICIALLY ENROLLED if you haven’t validated your ID<br>

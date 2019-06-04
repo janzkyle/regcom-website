@@ -25,7 +25,7 @@
         <ol class="reminder">
             <li><strong>Clear your hold orders AS SOON AS POSSIBLE.</strong> Students with hold orders cannot enlist online. You need to clear and lift your hold order with the concerned office/s before you can avail of internet enlistment and regular registration. Do this at least 1 week before online registration.</li>
             <li><strong>Make sure you remember your AISIS username and password.</strong> In case you forgot your password, you may request for a new one on <a href="http://aisisonline.ateneo.edu">AISIS Online</a>.</li>
-            <li><strong>Reinstated Graduate students and students coming from LOA</strong> should proceed to the Office of the Registrar(Social Sciences Bldg., 1st Floor) 1 week before online registration to have their clearance and AISIS account activated. </li>
+            <li><strong>Reinstated Graduate students and students coming from LOA</strong> should proceed to the Office of the Registrar (Social Sciences Bldg., 1st Floor) 1 week before online registration to have their clearance and AISIS account activated. </li>
 			<li><strong>Plan your schedules and make sure to have back-up schedules.</strong> This will help you enlist faster, in case the classes you have chosen are already closed. </li>            
 			<!--li><strong>Special (non-degree, cross registrants and auditors) undergraduate students</strong> must submit their required documents to the Associate Dean of Academic Affairs 1 week before online registration.</li-->
             <li>Immediately click the <strong>“Confirm Enlistment” button</strong> every time you enlist in a class. Then go back to enlist for your other classes. Repeat until you have enlisted in all your classes.</li>

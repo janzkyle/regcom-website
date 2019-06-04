@@ -100,7 +100,7 @@
                     <p>
                         Off-Campus Payment
                         <p class="indent">
-                            Date: <?php echo $dateoffcampusnewgrad ?> <br>
+                            Date: <?php echo $dategradmanreg ?> <br>
                             Details: <a href="payment.php">Off-campus payment options</a><br>
                             ID Application (the next registration procedure) will not require you to present your Official Receipt.<br>
                             <?php echo $offcampusnotes ?><br>

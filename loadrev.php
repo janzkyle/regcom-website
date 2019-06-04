@@ -76,7 +76,7 @@
                     <tr>
                         <td>
                             <span class="underline">Time:</span><br>
-                            <?php echo $sathours ?><br><br>
+                            <?php echo $officehours ?><br><br>
                             <span class="underline">Venue:</span><br>
                             <?php echo $loadrevvenue ?>
                         </td>

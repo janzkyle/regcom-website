@@ -22,7 +22,7 @@ datesophseniorsmanreg:January 15 (Tuesday)
 datejuniorsmanreg:January 16 (Wednesday)
 datefreshmanreg:January 16 (Wednesday)
 dateintlmanreg:January 16 (Wednesday)
-dateffamanreg:January 17 (Thursday)
+dateffamanreg:June 11 (Tuesday)
 timemanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Tuesday and Wednesday); 8:00 am - 12:00 nn (Thursday) 
 timeintlmanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Wednesday); 8:00 am - 12:00 nn (Thursday) 
 
@@ -66,8 +66,8 @@ timegradlate:8:00 am - 12:00 nn o
 newgradvenue:Office of the Associate Dean for Graduate Programs (OADGP, Kostka, 1st flr)
 
 // Payment
-dateoffcampus:January 9-16
-dateoncampus:January 9-12, 14-17
+dateoffcampus:June 6-11 (Thursday - Tuesday)
+dateoncampus:June 6-8 (Thursday - Saturday), 10-11 (Monday - Tuesday)
 timeoncampus:<ul style="list-style: none;"><li class="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class="indent">8:00 am - 12:00 nn (Saturday)</li></ul>
 
 dateoncampusoldgrad:January 9-12, 14-17
@@ -75,11 +75,14 @@ dateoffcampusoldgrad:January 9-16
 timeoncampusoldgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
 
 dateoncampusnewgrad:January 15-17
-dateoffcampusnewgrad:January 15-16
+dateoffcampusnewgrad:June 10-11
 timeoncampusnewgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm</li></ul>
 
 offcampusnotes:Off-campus payments that are not recognized before January 20, will be subject to the late registration fee.
 oncampusnotes:
+
+dateoffcampusspecial
+dateoncampusspecial
 
 // ID Application/Validation
 iddatesenior:Jan 22-23 (T-W)
@@ -91,19 +94,22 @@ iddateffa:Jan 15-18, 19, 25, 26
 iddatenew:TBA
 idtime:9:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), and 9:00 am - 12:00 nn (Saturdays) 
 idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (3rd Flr)</li></ul>
-
 iddateintl:TBA
 
-datestrictid:Jan 28
-idnotes:*Note: Only freshmen and transferees need to show their Tuition receipt and claiming stub for ID application.
+datestrictid:June 19
+idnotes:*Note: Only freshmen and transferees need to show their Tuition Receipt and Claiming Stub for ID application.
+
+iddateint:June 10-11, 13-14, 16-17 (Weekdays)
+iddateint2: June 13-14, 16-17 (Weekdays)
+iddateintsat: June 15 & 22 (Saturday)
 
 // Load Revision
-deadlineloadrev1:January 28
-deadlineloadrev1day:Monday
-deadlineloadrev2:March 2
-deadlineloadrev2day:Saturday
-deadlineloadrev3:April 3
-deadlineloadrev3day: Wednesday
+deadlineloadrev1:June 20
+deadlineloadrev1day:Thursday
+deadlineloadrev2:June 27
+deadlineloadrev2day:Thursday
+deadlineloadrev3:July 4
+deadlineloadrev3day:Thursday
 loadrevvenue:Registrar's Office
 timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
 
