@@ -53,7 +53,6 @@ fclose($file_handle);
                 Date: <?php echo $dategradmanreg ?><br>
                 Time: <br>
                 <?php echo $timegradmanreg ?><br>
-                <?php echo $sathours ?><br>
                 Venue: <strong><?php echo $checkersvenue ?></strong><br>
                 For proxies check: <a href="proxy.php">Proxy Documents and Reminders</a> <br>
                 Before proceeding to Manual Registration, indicate all problems (e.g. no slots, conflict, etc.) <br>

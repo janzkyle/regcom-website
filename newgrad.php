@@ -34,7 +34,6 @@
                 Date: <?php echo $dategradmanreg ?><br>
                 Time: <br>
                 <?php echo $timegradmanreg ?><br>
-                <?php echo $sathours ?><br>
                 Venue: <strong><?php echo $newgradvenue ?></strong><br>
                 International students must go to OADGP first to obtain forms and documents. <br> Regforms may also be obtained at CSR<br>
                 Scholars may obtain certain scholarship forms at OADGP before proceeding<br>
@@ -56,7 +55,6 @@
                 Date: <?php echo $dategradmanreg ?><br>
                 Time: <br>
                 <?php echo $timegradmanreg ?><br>
-                <?php echo $sathours ?><br>
                 Venue: <strong>Department/s concerned</strong><br>
                 Advisement is not the same as enlistment <br> 
             </p>
@@ -77,7 +75,6 @@
                 Date: <?php echo $dategradmanreg ?><br>
                 Time: <br>
                 <?php echo $timegradmanreg ?><br>
-                <?php echo $sathours ?><br>
                 Venue: <strong><?php echo $checkersvenue ?></strong><br>
                 For proxies check: <a href="proxy.php">Proxy Documents and Reminders</a><br>
                 Scholars must bring complete documents
@@ -113,7 +110,7 @@
             <p>
                 Off-Campus Payment
                 <p class="indent">
-                    Date: <?php echo $dateoffcampus ?><br>
+                    Date: <?php echo $dateoffcampusnewgrad?><br>
                     Details: <a href="payment.php">Off-campus payment options</a><br>
                     ID Application (the next registration procedure) will not require you to present your Official Receipt.<br>
                     <?php echo $offcampusnotes ?><br>
@@ -121,8 +118,8 @@
                 
                 On-Campus Payment
                 <p class="indent">
-                    Date: <?php echo $dateoncampus ?><br>
-                    Time: <?php echo $timeoncampus ?><br>
+                    Date: <?php echo $dateoncampusnewgrad ?><br>
+                    Time: <?php echo $timeoncampusnewgrad ?><br>
                     Bring: Printed assessment form<br>
                     Details: <a href="paymentdetails.php">On-campus payment details</a><br>
                     <?php echo $oncampusnotes ?>
@@ -149,7 +146,7 @@
  
                 Date:
                 <p class="indent">
-                    <?php echo $iddateint2 ?><br>
+                    <?php echo $iddateint ?><br>
                     <?php echo $iddateintsat ?><br>
                 </p>
                 Time: <?php echo $idtime ?><br>

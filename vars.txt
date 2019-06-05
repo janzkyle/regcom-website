@@ -6,7 +6,7 @@ sathours:8:00 am - 12:00 nn
 timebatchone:9:00 am - 12:00 nn
 timebatchtwo:1:00 pm - 4:00 pm
 timeintlonline:9:30 am - 12:00 nn; 1:30 pm - 4:00 pm
-timeffaonline:4:00 pm - 11:59 pm
+timeffaonline:4:15 pm - 11:59 pm
 
 datefreshmenonline:January 14 (Monday)
 datesophomoresonline:January 11 (Friday)
@@ -48,7 +48,7 @@ datelateid:
 
 // Grad
 dategradonline:June 6-7 (Thursday - Friday)
-timegradonline:10:00 am - 04:00 pm; 04:00 pm - 11:59 pm
+timegradonline:10:00 am - 04:00 pm; 04:15 pm - 11:59 pm
 dategradmanreg:June 10-11 (Monday - Tuesday)
 timegradmanreg:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
 
@@ -74,9 +74,9 @@ dateoncampusoldgrad:January 9-12, 14-17
 dateoffcampusoldgrad:January 9-16
 timeoncampusoldgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
 
-dateoncampusnewgrad:January 15-17
-dateoffcampusnewgrad:June 10-11
-timeoncampusnewgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm</li></ul>
+dateoncampusnewgrad:June 10-11 (Monday - Tuesday)
+dateoffcampusnewgrad:June 10-11 (Monday - Tuesday)
+timeoncampusnewgrad:8:00 am - 4:00 pm
 
 offcampusnotes:Off-campus payments that are not recognized before January 20, will be subject to the late registration fee.
 oncampusnotes:
@@ -99,8 +99,7 @@ iddateintl:TBA
 datestrictid:June 19
 idnotes:*Note: Only freshmen and transferees need to show their Tuition Receipt and Claiming Stub for ID application.
 
-iddateint:June 10-11, 13-14, 16-17 (Weekdays)
-iddateint2: June 13-14, 16-17 (Weekdays)
+iddateint:June 13-14, 17-18 (Weekdays)
 iddateintsat: June 15 & 22 (Saturday)
 
 // Load Revision
@@ -114,25 +113,41 @@ loadrevvenue:Registrar's Office
 timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
 
 // Documents links
-link1regsched2:files/01 2018 Second Sem Registration Schedules.pdf 
-link2eta:files/02 2018 Second Sem ETA (1).pdf
-link3aunderg:files/3a.pdf
+link1intregsched:files/01 2019 Intersession Registration Schedules.pdf 
+link2batchsched:files/02 2019 Undergraduate and Graduate Level Batch Schedules.pdf
+link3ugradproc:files/03 2019 Undegraduate Registration Procedures.pdf
+link4ugradlateproc:files/04 2019 Undergraduate Late Registration Procedures.pdf
+link5gradproc:files/05 2019 Graduate Registration Procedures.pdf
+link6newgradproc:files/06 2019 New Graduate Students Registration Procedures.pdf
+link7crossaudproc:files/07 2019 Cross Registrants and New Auditors Registration Procedures.pdf
+link8gradlateproc:files/08 2019 Graduate Late Registration Procedures.pdf
+link9gradscholar:files/09 2019 Graduate Scholarship Documents.pdf
+link10loadrev:files/10 2019 Load Revision Procedures.pdf
+link11proxy:files/11 2019 Proxy Guidelines.pdf
+link12genrem:files/12 2019 General Reminders.pdf
+link13mistakes:files/13 2019 Undergraduates Frequently Made Mistakes.pdf
+link14deps:files/14 2019 Loyola Schools Departments and Locations.pdf
+link15onoffpay:files/15 2019 On Campus and Off Campus Payments.pdf
+link16aisispay:files/16 2019 Aisis Linked Payment Option.pdf
+link17paysumm:files/17 2019 Tution Payment Options Summary.pdf
+
+
 //freshmen arent exluded from 3a// link3bfresh:files/03b 2018 First Sem Freshmen and Transferees Reg Procedures.pdf
-link3cintl:files/03c 2018 Second Sem International Exchange Reg Proccedures (1).pdf
-link4underglate:files/04 2018 Second Sem UnderGrad Late Registration.pdf
-link5oldg:files/05 2018 Second Sem Old Grad Reg Procedures.pdf
-link6newg:files/06 2018 Second Sem New Grad Registration.pdf
-link7crossaud:files/07 2018 Second Sem CrossReg Auditors Reg Procedures.pdf
-link8late:files/08 2018 Second Sem Grad Late Registration.pdf
-link9gradscholar:files/09 2018 Second Sem Graduate Students Scholarship Documents.pdf
-link10loadrev:files/10 2018 Second Sem Load Revision.pdf
-link11proxy:files/11 2018 Second Sem Proxy Guidelines.pdf
-link12rem:files/12 2018 Second Sem General Reminders.pdf
-link13mistakes:files/13 2018 Second Sem Frequently Made Mistakes.pdf
-link14dep:files/14 2018 Second Sem The Departments and Their Locations.pdf
-link15onoff:files/15 OFF CAMPUS PAYMENT OPTIONS.pdf
-link16pay:files/16 2018 Second Sem Tuition Payment Options_AISIS.pdf
-link17payshort:files/17 2018 Second Sem Tuition Payment Options_Short Version.pdf
+//link3cintl:files/03c 2018 Second Sem International Exchange Reg Proccedures (1).pdf
+//link4underglate:files/04 2018 Second Sem UnderGrad Late Registration.pdf
+//link5oldg:files/05 2018 Second Sem Old Grad Reg Procedures.pdf
+//link6newg:files/06 2018 Second Sem New Grad Registration.pdf
+//link7crossaud:files/07 2018 Second Sem CrossReg Auditors Reg Procedures.pdf
+//link8late:files/08 2018 Second Sem Grad Late Registration.pdf
+//link9gradscholar:files/09 2018 Second Sem Graduate Students Scholarship Documents.pdf
+//link10loadrev:files/10 2018 Second Sem Load Revision.pdf
+//link11proxy:files/11 2018 Second Sem Proxy Guidelines.pdf
+//link12rem:files/12 2018 Second Sem General Reminders.pdf
+//link13mistakes:files/13 2018 Second Sem Frequently Made Mistakes.pdf
+//link14dep:files/14 2018 Second Sem The Departments and Their Locations.pdf
+//link15onoff:files/15 OFF CAMPUS PAYMENT OPTIONS.pdf
+//link16pay:files/16 2018 Second Sem Tuition Payment Options_AISIS.pdf
+//link17payshort:files/17 2018 Second Sem Tuition Payment Options_Short Version.pdf
 proxyletter:files/proxyletter.docx
 
 //Temporary

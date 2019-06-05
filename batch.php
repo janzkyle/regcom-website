@@ -181,7 +181,7 @@
 
 
             <!-- Intersession -->
-            < <tr>
+            <tr>
                 <td>1</td>
                 <td><?php echo $dateinteronlineday1 ?><br>
                     9:00 am - 12:00 pm</td>
@@ -204,7 +204,7 @@
 
             <!-- Free for All -->
             <tr>
-                <td>Free-for-all</td>
+                <td>Free-for-all (Undergraduate <strong>required</strong> and <strong>not required</strong>)</td>
                 <td>
                         <!-- Intersession Only -->
                     <!-- <?php echo $dateinteronlineday2 ?> -->
