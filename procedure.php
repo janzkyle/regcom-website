@@ -149,9 +149,6 @@ fclose($file_handle);
                 <strong>ALL students are REQUIRED to apply for a new ID</strong><br>
                 <strong>NO PROXIES for any ID matters</strong><br>
 
-                <!--?php echo $idlinks ?>
-                <?php echo $idfreshmen ?>
-                <-->
                 Dates:<br>
                 <!--p class="indent">
                     Freshmen: <?php echo $iddatefresh ?> <br>
