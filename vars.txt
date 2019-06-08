@@ -78,7 +78,7 @@ dateoncampusnewgrad:June 10-11 (Monday - Tuesday)
 dateoffcampusnewgrad:June 10-11 (Monday - Tuesday)
 timeoncampusnewgrad:8:00 am - 4:00 pm
 
-offcampusnotes:Off-campus payments that are not recognized before January 20, will be subject to the late registration fee.
+offcampusnotes:Off-campus payments that are not recognized before June 11, will be subject to the late registration fee.
 oncampusnotes:
 
 dateoffcampusspecial
