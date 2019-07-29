@@ -1,2 +1,2 @@
-# RegcomWebsite
+# Regcom Website
 regcom.ateneo.edu
