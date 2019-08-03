@@ -113,8 +113,11 @@
         </thead>
         <tbody>
         	<!-- Regular Sem -->
-			
-            <!--tr>
+			<tr>
+                <td><?php echo $datefreshmenonline ?></td>
+                <td>Freshmen and Transferees</td>
+            </tr>
+            <tr>
                 <td><?php echo $dateseniorsonline ?></td>
                 <td>Seniors and Superseniors</td>
             </tr>
@@ -127,19 +130,19 @@
                 <td>Sophomores</td>
             </tr>
             <tr>
-                <td><?php echo $datefreshmenonline ?></td>
-                <td>Freshmen</td>
-            </tr-->
-
+                <td><?php echo $dategradonline ?></td>
+                <td>Graduates</td>
+            </tr>
+            
         	<!-- Intersession -->
-             <tr>
+             <!--tr>
                 <td><?php echo $dateinteronlineday1 ?></td>
                 <td>Undergraduates <strong> required </strong> to take Intersession classes, and Graduate students</td>
             </tr>
              <tr>
                 <td><?php echo $dateinteronlineday2 ?></td>
                 <td>Undergraduates <strong> required </strong> and <strong> not required </strong> to take Intersession classes, and Graduate students</td>
-            </tr>
+            </tr-->
         </tbody>
     </table>
     <table>
@@ -155,33 +158,38 @@
             </tr>
 
             <!-- Regular Sem -->
-            <!--tr>
+            <tr>
                 <td>1</td>
                 <td><?php echo $timebatchone ?></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td><?php echo $timebatchtwo ?></td>
-            </tr -->
+            </tr >
             <!-- Graduates -->
             <tr>
                 <td>Graduates</td>
                 
                 <td>
-                    <?php echo $dategradonline ?>
+                    <!--?php echo $timegradonline ?-->
+                    10:00 am - 12:00 nn
                     <br>
-                    <?php echo $timegradonline ?>
+                    2:00 pm - 4:00 pm
                 </td>
             </tr>
-            <!--Exchange students>
+            <!--Exchange students-->
             <tr>
-                <td>Undergraduate Int'l Exchange Students</td>
-                <td><?php echo $timeintlonline ?></td>
-            </tr -->
+                <td>Batch 1:Undergraduate Int'l Exchange Students</td>
+                <td><!--?php echo $timeintlonline ?-->10:00 am - 12: 00 nn</td>
+            </tr >
+            <tr>
+                <td>Batch 2:Undergraduate Int'l Exchange Students</td>
+                <td><!--?php echo $timeintlonline ?-->2:00 pm - 4:00 pm</td>
+            </tr >
 
 
             <!-- Intersession -->
-            <tr>
+            <!--tr>
                 <td>1</td>
                 <td><?php echo $dateinteronlineday1 ?><br>
                     9:00 am - 12:00 pm</td>
@@ -200,19 +208,22 @@
                 <td>4</td>
                 <td><?php echo $dateinteronlineday2 ?><br>
                     1:00 pm - 4:00 pm</td>
-            </tr>
+            </tr-->
 
             <!-- Free for All -->
             <tr>
-                <td>Free-for-all (Undergraduate <strong>required</strong> and <strong>not required</strong>)</td>
-                <td>
-                        <!-- Intersession Only -->
-                    <!-- <?php echo $dateinteronlineday2 ?> -->
-                        <!-- Regular Sem -->
-                    <?php echo $dateffaonline ?>
-                    <br>
+                <!-- Intersession Only -->
+                <!--td>Free-for-all (Undergraduate <strong>required</strong> and <strong>not required</strong>)</td>
+                <td> 
+                    < <?php echo $dateinteronlineday2 ?> -->
+                
+                <!-- Regular Sem -->
+                <td>Free-for-all</td>
+                    <td>
+                    <!--?php echo $dateffaonline ?>
+                    <br-->
                     <?php echo $timeffaonline ?>
-                </td>
+                    </td>
             </tr>
 
         </tbody>
@@ -231,44 +242,47 @@
                 <td class="subtitle">Year Level</td>
             </tr>
 			
+            <!-- Intersession Only -->
             <!--tr>
-                <td><?php echo $datesophseniorsmanreg ?></td>
-                <td>Sophomores, Seniors, and Superseniors</td>
-            </tr>
-
-            <tr>
-                <td><?php echo $datejuniorsmanreg ?></td>
-                <td>Juniors</td>
-            </tr -->
-			
-            <tr>
                 <td><?php echo $dateintermanualday1 ?></td>
                 <td>All Year Levels (Batching Applies)</td>
             </tr>
              <tr>
                 <td><?php echo $dateintermanualday2 ?></td>
                 <td>All Year Levels (Free-for-all)</td>
+            </tr-->
+
+            <!-- Regular Sem -->
+
+            <tr>
+                <td><?php echo $datefreshmanreg ?></td>
+                <td>Freshmen and Transferees</td>
             </tr>
 
             <tr>
-                <td><?php echo $dategradmanreg ?></td>
-                <td>Graduates</td>
+                <td><?php echo $datesophseniorsmanreg ?></td>
+                <td>Sophomores, Seniors, and Superseniors</td>
             </tr>
+
+            <tr>
+                <td><?php echo $datejuniorsmanreg ?></td>
+                <td>Juniors and Undergraduate Int'l Exchange Students</td>
+            </tr >
             
             <!--tr>
                 <td><?php echo $dateintlmanreg ?></td>
                 <td>Undergraduate Int'l Exchange Students</td>
-            </tr>
+            </tr-->
 			
             <tr>
-                <td><?php echo $datefreshmanreg ?></td>
-                <td>Freshmen</td>
+                <td><?php echo $dategradmanreg ?></td>
+                <td>Graduates</td>
             </tr>
 
 			<tr>
                 <td><?php echo $dateffamanreg ?></td>
-                <td>All Year Levels (Free-For-All)</td>
-            </tr-->
+                <td>All Year Levels, Readmitted and Special Students (Free-For-All)</td>
+            </tr>
            
         </tbody>
     </table>

@@ -97,7 +97,7 @@ fclose($file_handle);
 
                 On-Campus Payment
                 <p class="indent">
-                    Date: <?php echo $dateoncampus ?><br>
+                    Date: <?php echo $dateoncampusoldgrad ?><br>
                     Time: <?php echo $timeoncampus ?><br>
                     Bring: Printed assessment form<br>
                     Details: <a href="paymentdetails.php">On-campus payment details</a><br>

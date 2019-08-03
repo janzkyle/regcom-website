@@ -40,9 +40,11 @@
             <h3>Others</h3>
             <div>
                 <ul>
+                    <a href="reminders.php"><li id="liremind">Reminders</li></a>
                     <a href="proxy.php"><li id="liproxy">Proxy Guidelines</li></a>
                     <a href="loadrev.php"><li id="liloadrev">Load Revision Schedule</li></a>
                     <a href="map.php"><li id="limap">Campus Map</li></a>
                 </ul>
             </div>
+
         </div>

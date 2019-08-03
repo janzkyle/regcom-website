@@ -1,4 +1,4 @@
-semester:Intersession 2019-2020
+semester:1st semester 2019-2020
 officehours:8:00 am - 12:00 nn, 1:00 pm - 4:00 pm
 sathours:8:00 am - 12:00 nn
 
@@ -8,23 +8,29 @@ timebatchtwo:1:00 pm - 4:00 pm
 timeintlonline:9:30 am - 12:00 nn; 1:30 pm - 4:00 pm
 timeffaonline:4:15 pm - 11:59 pm
 
-datefreshmenonline:January 14 (Monday)
-datesophomoresonline:January 11 (Friday)
-datejuniorsonline:January 10 (Thursday)
-dateseniorsonline:January 9 (Wednesday)
+datefreshmenonline:August 2 (Friday)
+datesophomoresonline:August 8 (Thursday)
+datejuniorsonline:August 7 (Wednesday)
+dateseniorsonline:August 6 (Tuesday)
 dateintlonline:January 10 (Thursday)
 dateffaonline:June 7
 
 onlinenotes:
 
 // Manual Registration
-datesophseniorsmanreg:January 15 (Tuesday)
-datejuniorsmanreg:January 16 (Wednesday)
-datefreshmanreg:January 16 (Wednesday)
-dateintlmanreg:January 16 (Wednesday)
-dateffamanreg:June 11 (Tuesday)
+datesophseniorsmanreg:August 9 (Friday)
+datejuniorsmanreg:August 12 (Monday)
+datefreshmanreg:August 5 (Monday)
+dateintlmanreg:August 12 (Monday)
+dateffamanreg:August 13 (Tuesday); 8am - 12nn
 timemanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Tuesday and Wednesday); 8:00 am - 12:00 nn (Thursday) 
 timeintlmanreg: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Wednesday); 8:00 am - 12:00 nn (Thursday) 
+
+// Grad
+dategradonline:August 6-8 (Tuesday - Thursday)
+timegradonline:<ul style="list-style: none;"><li class ="indent">10:00 am - 12:00 nn</li><li class ="indent">02:00 pm - 04:00 pm</li><li class ="indent"> 04:15 pm - 11:59 pm</li></ul>
+dategradmanreg:August 9, 12-13 (Friday, Monday - Tuesday)
+timegradmanreg:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
 
 // Waiting Venues
 somwaitvenue:CTC 105
@@ -38,47 +44,39 @@ somenlistvenue:CTC 114
 sohsossenlistvenue:F227-228
 soseenlistvenue:Matteo Ricci Hall A
 specialenlistvenue:ADAA
-
-//Manual Registration Notes
-assessmentnotes:For printing of assessment forms only, please proceed to SS Conference Room 1 & 2
+assessmentvenue:Social Sciences Bldg Rooms 108 & 109
 
 // Late Reg
-datelate:June 13-15 (Thursday - Saturday)
+datelate:August 14-17 (Wednesday - Saturday)
 datelateid:
 
-// Grad
-dategradonline:June 6-7 (Thursday - Friday)
-timegradonline:10:00 am - 04:00 pm; 04:15 pm - 11:59 pm
-dategradmanreg:June 10-11 (Monday - Tuesday)
-timegradmanreg:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm
-
-checkersvenue:Case Study Room (Social Sciences Bldg, 1st flr)
+checkersvenue:Case Study Room (Social Sciences Bldg, 1st floor)
 gradvenue:SS 284
 
 // Grad Late
-gradlatenewinitvenue:Office of Associate Dean for Graduate Programs (OADGP, Kostka Hall, 1st flr)
-gradlateinitvenue:Registrar's Office (Social Sciences bldg, 1st)
-gradlateenlistvenue:Registrar's Office (Social Sciences bldg, 1st)
-gradlateassesvenue:Central Accounting Office (Faber Hall, 2nd flr)
-dategradlate:June 13-15 (Thursday - Saturday)
+gradlatenewinitvenue:Office of Associate Dean for Graduate Programs (OADGP, Kostka Hall, 1st floor)
+gradlateinitvenue:Registrar's Office (Social Sciences bldg, 1st floor)
+gradlateenlistvenue:Registrar's Office (Social Sciences bldg, 1st floor)
+gradlateassesvenue:Central Accounting Office (Faber Hall, 2nd floor)
+dategradlate:August 14-17 (Wednesday - Saturday)
 timegradlate:8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
 // New Grad
 newgradvenue:Office of the Associate Dean for Graduate Programs (OADGP, Kostka, 1st flr)
 
 // Payment
-dateoffcampus:June 6-11 (Thursday - Tuesday)
-dateoncampus:June 6-8 (Thursday - Saturday), 10-11 (Monday - Tuesday)
+dateoffcampus:August 2-13 (Friday - Tuesday)
+dateoncampus:August 2-3 (Friday - Saturday), 5-9 (Monday - Friday), 10 (Saturday), 12-13 (Monday - Tuesday)
 timeoncampus:<ul style="list-style: none;"><li class="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class="indent">8:00 am - 12:00 nn (Saturday)</li></ul>
 
-dateoncampusoldgrad:January 9-12, 14-17
+dateoncampusoldgrad:<ul style="list-style: none;"><li class="indent">August 6-9, 12-13 (Tuesday - Friday, Monday - Tuesday)</li><li class="indent"> August 3, 10 (Saturday)</li></ul>
 dateoffcampusoldgrad:January 9-16
 timeoncampusoldgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
 
-dateoncampusnewgrad:June 10-11 (Monday - Tuesday)
-dateoffcampusnewgrad:June 10-11 (Monday - Tuesday)
-timeoncampusnewgrad:8:00 am - 4:00 pm
+dateoncampusnewgrad:<ul style="list-style: none;"><li class="indent">August 5-9, 12-13 (Monday - Friday, Monday - Tuesday)</li><li class="indent"> August 10 (Saturday)</li></ul>
+dateoffcampusnewgrad:August 5-13 (Monday - Tuesday)
+timeoncampusnewgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
 
-offcampusnotes:Off-campus payments that are not recognized before January 20, will be subject to the late registration fee.
+offcampusnotes:Off-campus payments that are not recognized before August 13, will be subject to the late registration fee.
 oncampusnotes:
 
 dateoffcampusspecial
@@ -93,43 +91,45 @@ iddategrad:Jan 15-19, 21-26 (T-S, M-S)
 iddateffa:Jan 15-18, 19, 25, 26
 iddatenew:TBA
 idtime:9:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), and 9:00 am - 12:00 nn (Saturdays) 
-idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (3rd Flr)</li></ul>
+idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (G310, Gonzaga Hall, 3rd Floor)</li></ul>
 iddateintl:TBA
 
-datestrictid:June 19
+datestrictid:August 27
 idnotes:*Note: Only freshmen and transferees need to show their Tuition Receipt and Claiming Stub for ID application.
 
-iddateint:June 13-14, 17-18 (Weekdays)
-iddateintsat: June 15 & 22 (Saturday)
+iddateint:August 9, 12-16, 20, 22-23 (Weekdays)
+iddateintsat: August 10, 17, 24 (Saturdays)
 
 // Load Revision
-deadlineloadrev1:June 20
-deadlineloadrev1day:Thursday
-deadlineloadrev2:June 27
-deadlineloadrev2day:Thursday
-deadlineloadrev3:July 4
-deadlineloadrev3day:Thursday
+deadlineloadrev1:August 23
+deadlineloadrev1day:Friday
+deadlineloadrev2:September 25
+deadlineloadrev2day:Wednesday
+deadlineloadrev3:October 23
+deadlineloadrev3day:Wednesday
 loadrevvenue:Registrar's Office
-timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturday) 
+timeloadrev: 8:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), 8:00 am - 12:00 nn (Saturdays) 
 
 // Documents links
-link1intregsched:files/01 2019 Intersession Registration Schedules.pdf 
-link2batchsched:files/02 2019 Undergraduate and Graduate Level Batch Schedules.pdf
-link3ugradproc:files/03 2019 Undegraduate Registration Procedures.pdf
-link4ugradlateproc:files/04 2019 Undergraduate Late Registration Procedures.pdf
-link5gradproc:files/05 2019 Graduate Registration Procedures.pdf
-link6newgradproc:files/06 2019 New Graduate Students Registration Procedures.pdf
-link7crossaudproc:files/07 2019 Cross Registrants and New Auditors Registration Procedures.pdf
-link8gradlateproc:files/08 2019 Graduate Late Registration Procedures.pdf
-link9gradscholar:files/09 2019 Graduate Scholarship Documents.pdf
-link10loadrev:files/10 2019 Load Revision Procedures.pdf
-link11proxy:files/11 2019 Proxy Guidelines.pdf
-link12genrem:files/12 2019 General Reminders.pdf
-link13mistakes:files/13 2019 Undergraduates Frequently Made Mistakes.pdf
-link14deps:files/14 2019 Loyola Schools Departments and Locations.pdf
-link15onoffpay:files/15 2019 On Campus and Off Campus Payments.pdf
-link16aisispay:files/16 2019 Aisis Linked Payment Option.pdf
-link17paysumm:files/17 2019 Tution Payment Options Summary.pdf
+link1regsched:files/01-2019-First-Sem-Reg-Schedule.pdf 
+link2batchsched:files/02-2019-First-Sem-ETA.pdf
+link3augradproc:files/03a-2019-First-Sem-Undergrad-Reg-Procedures.pdf
+link3bfreshproc:files/03b-2019-First-Sem-Freshmen-and-Transferees-Reg-Procedures.pdf
+link3cintl:files/03c-2019-First-Sem-International-Exchange-Reg-Procedures.pdf
+link4ugradlateproc:files/04-2019-First-Sem-Undergrad-LateReg-Procedures.pdf
+link5gradproc:files/05-2019-First-Sem-Old-Grad-Reg-Procedures.pdf
+link6newgradproc:files/06-2019-First-Sem-New-Grad-Reg-Procedures.pdf
+link7crossaudproc:files/07-2019-First-Sem-CrossReg-Auditors-Grad-Reg-Procedures.pdf
+link8gradlateproc:files/08-2019-First-Sem-Grad-LateReg-Procedures.pdf
+link9gradscholar:files/09-2019-Graduate-Students-Scholarship-Documents.pdf
+link10loadrev:files/10-2019-First-Sem-Load-Rev-Procedures.pdf
+link11proxy:files/11-2019-First-Sem-Proxying-Guidelines.pdf
+link12genrem:files/12-2019-First-Sem-General-Reminders.pdf
+link13mistakes:files/13-2019-First-Sem-Frequently-Made-Mistakes.pdf
+link14deps:files/14-2019-First-Sem-Departments-Locations.pdf
+link15onoffpay:files/15-2019-First-Sem-Tuition-Payment-Options_OnandOffCampus.pdf
+link16aisispay:files/16-2019-First-Sem-Tuition-Payment-Options-AISIS.pdf
+link17paysumm:files/17-2019-First-Sem-Tuition-Payment-Options.pdf
 
 
 //freshmen arent exluded from 3a// link3bfresh:files/03b 2018 First Sem Freshmen and Transferees Reg Procedures.pdf
@@ -170,7 +170,3 @@ dateinteronlineday1:June 6
 dateinteronlineday2:June 7
 dateintermanualday1:June 10
 dateintermanualday2:June 11
-
-
-
-

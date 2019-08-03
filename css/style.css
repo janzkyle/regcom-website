@@ -230,6 +230,17 @@ i{
 	float: right;
 	margin-right: 10%;
 }
+.buttonquestion{
+	border: 3px solid #2366c9;
+	background-color: transparent;
+	color: #2366c9;
+	font-family: 'OpenSans-Semibold', sans-serif;
+	text-align: center;
+	padding: 6px;
+	margin: 6px 0;
+	width: 100%;
+	min-height: 50px;
+}
 .question button,
 .thanks button{
 	border: 3px solid #2366c9;
@@ -622,7 +633,7 @@ i{
 		float: right;
 	}
 	.question{
-		width: 50%;
+		width: 100%;
 		float: left;
 		padding: 0 6px;
 	}

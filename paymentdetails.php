@@ -31,7 +31,10 @@
                 Bancnet, Megalink, & Expressnet Debit Cards may be used in place of check or cash. Point of Sale (POS) terminals are available. There’s no need to issue a check against an ATM account nor bring cash.<br><br>
                 <strong>C. ACCEPTABLE CREDIT CARDS</strong><br>
                 <ol>
-                    <li class="indent">Visa and Mastercard</li>
+                    <li class="indent">Unionbank</li>
+                    <li class="indent">AAA</li>
+                    <li class="indent">Visa</li>
+                    <li class="indent">Visa/Mastercard</li>
                 </ol>
                 <br><br>
 

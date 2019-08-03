@@ -76,11 +76,13 @@
         Present validated bank receipts AND confirmation acknowledgement receipt at window 1 of the Cashier’s Ground Office, Floor of Xavier Hall 
         <strong>after the manual registration days.</strong><br><br>
         <ul>
-            <li><strong>A. BANCNET</strong></li>
-            <li><strong>B. VISA/MASTERCARD</strong> - good for the 1st installment upon registration</li>
+            <li><strong>BPI-ISSUED VISA/MASTERCARD</strong> - good for the 1st installment upon registration</li>
         </ul>
-        
-        Online payments only applicable during online and manual registration only.
+        Note: 
+        <ul>
+        <li>Bancnet is no longer accepted as AISIS-linked payment.</li>
+        <li>Online payments only applicable during online and manual registration only.</li>
+        </ul>
     </div>
     
     <div style="clear:both;"></div>

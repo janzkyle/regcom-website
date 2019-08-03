@@ -32,7 +32,7 @@ fclose($file_handle);
             <p>
                 Date: <?php echo $datelate ?><br>
                 Time: <?php echo $timeloadrev ?><br>
-                Venue: <strong>Registrar's Office (Social Sciences bldg, 1st flr)</strong><br>
+                Venue: <strong>Registrar's Office (Social Sciences bldg, 1st floor)</strong><br>
                 Bring: <strong>Valid ID (NO VALID ID NO ENTRY)*</strong>
             </p>
         </div>
@@ -65,7 +65,7 @@ fclose($file_handle);
             <p>
                 Date: <?php echo $datelate ?><br>
                 Time: <?php echo $timeloadrev ?><br>
-                Venue: <strong>Registrar's Office (Social Science bldg, 1st flr)</strong><br>
+                Venue: <strong>Registrar's Office (Social Science bldg, 1st floor)</strong><br>
                 Bring: <strong>Valid ID (NO VALID ID NO ENTRY)*</strong>, Regform with approval of concerned departments
             </p>
             </p>
@@ -82,7 +82,7 @@ fclose($file_handle);
             <p>
                 Date: <?php echo $datelate ?><br>
                 Time: <?php echo $timeloadrev ?><br>
-                Venue: <strong>Central Accounting Office (Faber Hall, 2nd flr)</strong><br>
+                Venue: <strong>Central Accounting Office (Faber Hall, 2nd floor)</strong><br>
                 Bring: <strong>Valid ID (NO VALID ID NO ENTRY)*</strong>, Regform
             </p>
         </div>
@@ -98,7 +98,7 @@ fclose($file_handle);
             <p>
                 Date: <?php echo $datelate ?><br>
                 Time: <?php echo $timeloadrev ?><br>
-                Venue: <strong>Xavier Hall, 1st flr</strong><br>
+                Venue: <strong>Xavier Hall, 1st floor</strong><br>
                 Bring: Printed assessment form<br>
                 <strong>*Late on-campus and off-campus payment will have a surcharge of P250.00</strong>
             </p>
@@ -131,8 +131,9 @@ fclose($file_handle);
                 </p>
                 Time: <?php echo $idtime ?><br>
                 Venue: <strong><?php echo $idvenue ?></strong><br>
-                You ARE NOT OFFICIALLY ENROLLED if you haven’t validated your ID<br>
                 Strict ID implementation: <?php echo $datestrictid ?><br><br>
+                <strong>You ARE NOT OFFICIALLY ENROLLED if you haven’t validated your ID</strong><br>
+                
             </p>
         </div>
         <div style="clear:both;"></div>

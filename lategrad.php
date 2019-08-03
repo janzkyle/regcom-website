@@ -100,9 +100,9 @@ fclose($file_handle);
             <h3>Cashier</h3>
             <p>
                 Date: <?php echo $dategradlate ?><br>
-                Time: 8 am - 12 nn, 1 - 4 pm (Weekdays); 8am - 12nn (Saturday)
+                Time: <?php echo $timegradlate ?> <br>
                 <!-- <?php echo $timegradmanreg ?> --><br>
-                Venue: <strong>Xavier Hall, 1st flr</strong><br>
+                Venue: <strong>Xavier Hall, 1st floor</strong><br>
                 Bring: Printed assessment form<br>
                 <strong>*Late on-campus and off-campus payment will have a surcharge of P250.00</strong>
             </p>

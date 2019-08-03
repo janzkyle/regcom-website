@@ -23,9 +23,11 @@
     <h1>Downloads</h1>
     <div class="nonsteps">
         <ul>
-            <li><a href="<?php echo $link1intregsched ?>">Intersession Registration Schedule [pdf]</a></li>
+            <li><a href="<?php echo $link1regsched ?>">First Semester Registration Schedule [pdf]</a></li>
             <li><a href="<?php echo $link2batchsched ?>">Undergraduate and Graduate Level Batch Schedules [pdf]</a></li>
-            <li><a href="<?php echo $link3ugradproc ?>">Undergraduate Registration Procedures [pdf]</a></li>
+            <li><a href="<?php echo $link3augradproc ?>">Undergraduate Registration Procedures [pdf]</a></li>
+            <li><a href="<?php echo $link3bfreshproc ?>">Freshmen and Transferees Registration Procedures [pdf]</a></li>
+            <li><a href="<?php echo $link3cintl ?>">International Exchange Students Registration Procedures [pdf]</a></li>
             <li><a href="<?php echo $link4ugradlateproc ?>">Undergraduate Late Registration Procedures [pdf]</a></li>
             <li><a href="<?php echo $link5gradproc ?>">Graduate Registration Procedures [pdf]</a></li>
             <li><a href="<?php echo $link6newgradproc ?>">New Graduate Registration Procedures [pdf]</a></li>
