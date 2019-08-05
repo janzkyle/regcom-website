@@ -117,7 +117,7 @@
         </div>
         <h4>*Note: there is no deadline for application of minor/specialization </h4><br><br>
         <p class="detail" style="width: 80%">Load revision forms can be obtained from your AISIS Account. However, <strong>the processing of these load re
-        vision forms can only be done once the Second Semester has begun.</strong></p>
+        vision forms can only be done once <?php echo $semester ?> has begun.</strong></p>
     </div>
         
     <div class="nonsteps" style="margin-bottom:36px;">

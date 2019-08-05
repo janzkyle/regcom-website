@@ -61,7 +61,7 @@ fclose($file_handle);
             <img src="images/checker.png" height="100">
         </div>
         <div class="description">
-            <h3>Checkers</h3>
+            <h3>Manual Registration</h3>
             <p>
                 Date: <?php echo $dategradmanreg ?><br>
                 Time: <?php echo $timegradmanreg ?><br>

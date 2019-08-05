@@ -1,4 +1,4 @@
-semester:1st semester 2019-2020
+semester:1st Semester 2019-2020
 officehours:8:00 am - 12:00 nn, 1:00 pm - 4:00 pm
 sathours:8:00 am - 12:00 nn
 
@@ -91,7 +91,7 @@ iddategrad:Jan 15-19, 21-26 (T-S, M-S)
 iddateffa:Jan 15-18, 19, 25, 26
 iddatenew:TBA
 idtime:9:00 am - 12:00 nn; 1:00 pm - 4:00 pm (Weekdays), and 9:00 am - 12:00 nn (Saturdays) 
-idvenue:<ul><li class="indent">Gonzaga Exhibit Hall (G310, Gonzaga Hall, 3rd Floor)</li></ul>
+idvenue:<ul><li class="indent">Aug 8-17 - Rizal Mini Theater (1st flr, Faber Hall)</li><li class="indent">Aug 20-24 - Gonzaga Exhibit Hall (G310, Gonzaga Hall)</li></ul>
 iddateintl:TBA
 
 datestrictid:August 27
