@@ -76,7 +76,7 @@ dateoncampusnewgrad:<ul style="list-style: none;"><li class="indent">August 5-9,
 dateoffcampusnewgrad:August 5-13 (Monday - Tuesday)
 timeoncampusnewgrad:<ul style="list-style: none;"><li class ="indent">8:00 am - 12:00 nn, 1:00 pm - 4:00 pm (Weekdays)</li><li class ="indent">8:00 am - 4:00 pm (Saturday)</li class ="indent"></ul>
 
-offcampusnotes:Off-campus payments that are not recognized before August 13, will be subject to the late registration fee.
+offcampusnotes:Off-campus payments that are not recognized before August 16, will be subject to the late registration fee.
 oncampusnotes:
 
 dateoffcampusspecial
